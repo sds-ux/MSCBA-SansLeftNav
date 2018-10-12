@@ -244,6 +244,7 @@ a.dropdown-item {
 .topmenu {
 
   padding: 0; }
+  
   .topmenu ul.nav > li > a {
     background: #5C5C5C;
     display: inline-block;
@@ -253,10 +254,11 @@ a.dropdown-item {
     color: white;
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     border-left: 1px solid rgba(255, 255, 255, 0.1); }
+	
   .topmenu ul.nav > li > a:hover {
    background: #444;
-  /*  background: #26374a; */
     color: white; }
+	
 
 .topmenu .link-list a {
   color: #124B81 !important;

@@ -124,8 +124,8 @@
 					$("div#mainmenu").removeClass( "wb-inv" );
 					$("li#nav-highlight").removeClass( "wb-inv" );
 					$("li#nav-normal").addClass( "wb-inv" );
-					$("button#showMainmenu").unbind("click");
-					$("button#showMainmenu").click(hideMainmenu);
+					$("button.showMainmenu").unbind("click");
+					$("button.showMainmenu").click(hideMainmenu);
 					$("button#toggleSearch").unbind("click");
 					$("button#toggleSearch").click(hideMainmenu);
 				}
@@ -133,15 +133,15 @@
 					$("div#mainmenu").addClass( "wb-inv" );
 					$("li#nav-normal").removeClass( "wb-inv" );
 					$("li#nav-highlight").addClass( "wb-inv" );
-					$("button#showMainmenu").unbind("click");
-					$("button#showMainmenu").click(showMainmenu);
+					$("button.showMainmenu").unbind("click");
+					$("button.showMainmenu").click(showMainmenu);
 					$("button#toggleSearch").unbind("click");
 					$("button#toggleSearch").click(showMainmenu);
 				}
 
 			/* bind showMainmenu function to the main menu button */
 
-				$("button#showMainmenu").click(showMainmenu);
+				$("button.showMainmenu").click(showMainmenu);
 				$("button#toggleSearch").click(showMainmenu);
 
 			/* bind closeMainmenu function to the close button inside the menu panel */
