@@ -62,16 +62,12 @@ h5 {
 
 
 /* larger font size for text-heavy content */
-.p-content
-
-{
-
+main.container p {
 	font-size: 20px !important;
 	font-family: 'Noto sans', sans-serif !important;
 	line-height: 34px !important;
 	padding-top: 8px !important;
 	padding-bottom: 8px !important;
-
 }
 
 
@@ -191,47 +187,26 @@ abbr {
 	padding-bottom: 20px;
 }
 
-/* controls bullet spacing */
+main.container li {
+	font-size: 20px !important;
+	font-family: 'Noto sans', sans-serif !important;
+	line-height: 34px !important;
+	margin-left: 50px;
+	margin-bottom: 10px !important;
+	list-style-type: disc !important;
+}
 
 .bullet {
-
-
-		font-size: 19px !important;
-			line-height: 28px !important;
-			list-style-type: disc !important;
-			color: black;
-
-		margin-left: 50px;
-
+	font-size: 19px !important;
+	line-height: 28px !important;
+	list-style-type: disc !important;
+	color: black;
 }
 
-.content-bullet {
-
-
-	font-size: 20px !important;
-		line-height: 35px !important;
-		list-style-type: disc !important;
-		color: black;
-
-	margin-left: 50px;
 
 
 
-}
 
-/* used when bullets are more than short points, and run 2 full lines or more */
-
-.multi-bullet {
-
-	padding-top: 5px !important;
-	padding-bottom: 5px !important;
-	font-size: 20px !important;
-		line-height: 30px !important;
-		list-style-type: disc !important;
-		color: black;
-			margin-left: 50px;
-
-}
 /* font size in li of breadcrumb */
 
 .cust-breadcrumb {
