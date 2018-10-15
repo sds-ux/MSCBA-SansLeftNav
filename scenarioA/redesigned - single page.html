@@ -26,6 +26,7 @@
 
                                 </script>
 
+                                <link rel="apple-touch-icon" href="" />
                                 <link href="./css/bootstrap.css" rel="stylesheet" />
                                 <link rel="stylesheet" href="./css/desktop-mm.css" />
                                   <link rel="stylesheet" href="./css/mobile-mm.css" />
@@ -33,7 +34,6 @@
 
                               <link rel="stylesheet" href="./css/fonts-plus-homepage.css" />
                               <link rel="stylesheet" href="./css/min-WET.css" />
-<link rel="stylesheet" type="text/css" href="css/custom.css" />
 
 
 <body vocab="http://schema.org/" typeof="WebPage">
@@ -111,7 +111,7 @@
 </div>
 <div class="form-group submit">
 
-<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub" style="background-color: #26374a !important;"><span class="fas fa-search"></span><span class="wb-inv">Search</span></button>
+<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub" style="background-color: #26374a !important;"><a href="./search-results.html"><span class="fas fa-search"></span><span class="wb-inv">Search</span></a></button>
 
 </div>
 </form>
@@ -121,84 +121,85 @@
 
 </header>
 
-<style>
 
-.topmenu ul.nav > li > a
-{
-  background-color: white !important;
-  color: #284162;
+  <style>
 
-}
+  .topmenu ul.nav > li > a
+  {
+    background-color: #26374a !important;
+    color: white;
 
-.topmenu
+  }
 
-{
+  .topmenu
 
-  margin-right: -20px;
+  {
 
-}
-.topmenu ul.nav > li > a:hover
-
-{
-  color: #284162;
-
-}
-
-.topmenu ul.nav > li > a:focus
-
-{
-  color: white;
-
-}
-
-.allbutton {
-
-  border: none !important;
-  color: #284162;
-  margin-right: 20px;
-  margin-left: 20px;
-  background-color: white;
-}
+    margin-right: -20px;
 
 
-</style>
+  }
+  .topmenu ul.nav > li > a:hover
+
+  {
+    color: #26374a;
+
+  }
+
+
+  .topmenu ul.nav > li > a:focus
+
+  {
+    color: white;
+
+  }
+
+  .allbutton {
+
+    border: none !important;
+    color: white;
+    margin-right: 10px;
+    margin-left: 14px;
+    background-color: #26374a;
+  }
+
+  </style>
+
+
+  <div class="canadamenu visible-sm visible-xs" style="margin-top: 0px !important;">
+  <div class="container">
+      <div class="topmenu topmenu-mobile"> <div class="columns is-gapless">
+            <div class="column">
 
 
 
-<div class="homemenu visible-sm visible-xs" style="margin-top: 0px !important;">
-<div class="container">
-    <div class="topmenu topmenu-mobile"> <div class="columns is-gapless">
-          <div class="column">
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li id="nav-highlight" class="hide-me-menu wb-inv">
 
-
-
-      <div class="nav-collapse collapse">
-        <ul class="nav">
-          <li id="nav-highlight" class="hide-me-menu wb-inv">
-
-            <a>  <button class="showMainmenu highlight-button">All services&nbsp;&nbsp;<span class="icon"><i class="fas fa-chevron-up"></i></span>
-              </button></a>
-
-            </li>
-            <li id="nav-normal">
-
-              <a>  <button class="showMainmenu allbutton">All services&nbsp;&nbsp;<span class="icon"><i class="fas fa-chevron-down"></i></span>
+              <a>  <button class="showMainmenu highlight-button">All services&nbsp;&nbsp;<span class="icon"><i class="fas fa-chevron-up"></i></span>
                 </button></a>
 
               </li>
+              <li id="nav-normal">
 
-              <div id="mainmenu" style="padding-left: 0px !important; padding-right: 0px !important;" class="wb-inv col-xs-12 col-sm-12">
+                <a>  <button class="showMainmenu allbutton">All services&nbsp;&nbsp;<span class="icon"><i class="fas fa-chevron-down"></i></span>
+                  </button></a>
+
+                </li>
+
+                <div id="mainmenu" style="padding-left: 0px !important; padding-right: 0px !important;" class="wb-inv col-xs-12 col-sm-12">
 
 
-              <button id="hideMainmenu" class="pull-right">Close&nbsp;&nbsp;<span><i class="fas fa-times" style=" margin-right: 10px !important;"></i></span></button>
+                <button id="hideMainmenu" class="pull-right">Close&nbsp;&nbsp;<span><i class="fas fa-times" style=" margin-right: 10px !important;"></i></span></button>
 
 
-              <nav id="mobile-mm">
+                <nav id="mobile-mm">
 
 
 
-              <ul style="border-top: 1px solid #eee;">
-              <li ><a href="#"><span id="click_jobs"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Jobs and the workplace</span></a>
+                <ul style="border-top: 1px solid #eee;">
+              <li ><a href="#"><span id="click_jobs"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Jobs and the workplace</span></a>
 
                 <ul class="submainmenu">
 
@@ -227,7 +228,7 @@
               </ul>
 
               </li>
-              <li><a href="#"><span id="click_imm"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Immigration and citizenship</span></a>
+              <li><a href="#"><span id="click_imm"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Immigration and citizenship</a></span>
 
                 <ul class="submainmenu">
 
@@ -261,7 +262,7 @@
               </li>
 
 
-              <li><a href="#"><span id="click_travel"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Travel and tourism</span></a>
+              <li><a href="#"><span id="click_travel"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Travel and tourism</span></a>
                 <ul class="submainmenu">
 
                   <li id="click_travel_mr" style="border-bottom: 1px solid #ccc;"><span><i class="fas fa-caret-right"></i></span>&nbsp;&nbsp;Most requested</li>
@@ -289,7 +290,7 @@
               </li>
 
 
-              <li><a href="#"><span id="click_business"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Business and industry</span></a>
+              <li><a href="#"><span id="click_business"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Business and industry</span></a>
 
                 <ul class="submainmenu">
 
@@ -325,7 +326,7 @@
               </li>
 
 
-              <li><a href="#"><span id="click_benefits"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Benefits</span></a>
+              <li><a href="#"><span id="click_benefits"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Benefits</span></a>
 
 
                 <ul class="submainmenu">
@@ -357,7 +358,7 @@
 
 
 
-              <li><a href="#"><span id="click_health"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Health</span></a>
+              <li><a href="#"><span id="click_health"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Health</span></a>
 
 
                 <ul class="submainmenu">
@@ -389,7 +390,7 @@
               </li>
 
 
-              <li><a href="#"><span id="click_taxes"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Taxes</span></a>
+              <li><a href="#"><span id="click_taxes"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Taxes</span></a>
 
 
                 <ul class="submainmenu">
@@ -423,7 +424,7 @@
               </li>
 
 
-              <li><a href="#"><span id="click_enviro"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Environment and natural resources</span></a>
+              <li><a href="#"><span id="click_enviro"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Environment and natural resources</span></a>
 
 
                 <ul class="submainmenu">
@@ -456,7 +457,7 @@
 
 
 
-              <li><a href="#"><span id="click_defence"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>National security and defence</span></a>
+              <li><a href="#"><span id="click_defence"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>National security and defence</span></a>
 
 
                 <ul class="submainmenu">
@@ -488,7 +489,7 @@
               </li>
 
 
-              <li><a href="#"><span id="click_culture"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Culture, history and sport</span></a>
+              <li><a href="#"><span id="click_culture"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Culture, history and sport</span></a>
 
 
 
@@ -523,7 +524,7 @@
               </li>
 
 
-              <li><a href="#"><span id="click_police"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Policing, justice and emergencies</span></a>
+              <li><a href="#"><span id="click_police"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Policing, justice and emergencies</span></a>
 
 
                 <ul class="submainmenu">
@@ -557,7 +558,7 @@
               </li>
 
 
-              <li><a href="#"><span id="click_transport"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Transport and infrastructure</span></a>
+              <li><a href="#"><span id="click_transport"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Transport and infrastructure</span></a>
 
                 <ul class="submainmenu">
 
@@ -589,7 +590,7 @@
               </li>
 
 
-              <li><a href="#"><span id="click_world"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Canada and the world</span></a>
+              <li><a href="#"><span id="click_world"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Canada and the world</span></a>
 
 
                 <ul class="submainmenu">
@@ -624,7 +625,7 @@
               </li>
 
 
-              <li ><a href="#"><span id="click_money"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Money and finances</span></a>
+              <li ><a href="#"><span id="click_money"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Money and finances</span></a>
 
                 <ul class="submainmenu">
 
@@ -665,7 +666,7 @@
               </li>
 
 
-              <li><a href="#"><span id="click_science"><i class="fas fa-caret-right">&nbsp;&nbsp;</i>Science and innovation</span></a>
+              <li><a href="#"><span id="click_science"><span><i class="fas fa-caret-right">&nbsp;&nbsp;</span></i>Science and innovation</span></a>
 
                 <ul class="submainmenu">
 
@@ -704,31 +705,31 @@
 
 
 
-              </nav>
+                </nav>
 
-              </div><!-- #panel -->
+                </div><!-- #panel -->
 
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-
-
-<div class="homemenu hidden-sm hidden-xs">
-<div class="container">
-    <div class="topmenu"> <div class="columns is-gapless">
-          <div class="column">
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
 
 
 
-      <div class="nav-collapse collapse">
-        <ul class="nav">
+  <div class="canadamenu hidden-sm hidden-xs">
+  <div class="container">
+      <div class="topmenu"> <div class="columns is-gapless">
+            <div class="column">
+
+
+
+        <div class="nav-collapse collapse">
+          <ul class="nav">
           <li class="active">
 
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">All services&nbsp;&nbsp;<span class="icon"><i class="fas fa-chevron-down"></i></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">All services&nbsp;&nbsp;<span class="icon"><i class="fas fa-chevron-down"></i></a></span>
 
             <!--
               jQuery-menu-aim: this <ul> defines the dropdown main menu and its contents.
@@ -1005,7 +1006,7 @@
 
                             <div class="column-one">
                               <div class="menu-column">
-                                <ul class="link-list is-size-5" >
+                                <ul ul class="link-list is-size-5" >
                                   <li class="is-size-5"><a href="https://www.canada.ca/en/services/benefits/ei.html">Employment Insurance and leave</a></li>
                                   <li class="is-size-5"><a href="https://www.canada.ca/en/services/benefits/family.html">Family and caregiving benefits</a></li>
                                   <li class="is-size-5"><a href="https://www.canada.ca/en/services/benefits/publicpensions.html">Public pensions</a></li>
@@ -1520,7 +1521,7 @@
 
                             <div class="column-one">
                               <div class="menu-column">
-                                <ul class="link-list is-size-5" >
+                                <ul ul class="link-list is-size-5" >
                                     <li class="is-size-5"><a href="https://www.canada.ca/en/services/finance/manage.html">Managing your money</a></li>
                                     <li class="is-size-5"><a href="https://www.canada.ca/en/services/finance/debt.html">Debt and borrowing</a></li>
                                     <li class="is-size-5"><a href="https://www.canada.ca/en/services/finance/savings.html">Savings and investments</a></li>
@@ -1622,430 +1623,249 @@
             </ul>
           </li>
         </ul>
-      </div>
-
-</div>
-
-
-
         </div>
-    </div>
-</div></div>
-</div>
 
-<script src="./js/jquery-1.9.1.min.js"></script>
-
-<script src="./js/jquery.menu-aim.js" type="text/javascript"></script>
-<script src="./js/bootstrap.min.js" type="text/javascript"></script>
-<script>
-
-    var $menu = $(".dropdown-menu");
-
-    // jQuery-menu-aim: <meaningful part of the example>
-    // Hook up events to be fired on menu row activation.
-    $menu.menuAim({
-        activate: activateSubmenu,
-        deactivate: deactivateSubmenu
-    });
-    // jQuery-menu-aim: </meaningful part of the example>
-
-    // jQuery-menu-aim: the following JS is used to show and hide the submenu
-    // contents. Again, this can be done in any number of ways. jQuery-menu-aim
-    // doesn't care how you do this, it just fires the activate and deactivate
-    // events at the right times so you know when to show and hide your submenus.
-    function activateSubmenu(row) {
-        var $row = $(row),
-            submenuId = $row.data("submenuId"),
-            $submenu = $("#" + submenuId),
-            height = $menu.outerHeight(),
-            width = $menu.outerWidth();
-
-        // Show the submenu
-        $submenu.css({
-            display: "block",
-            top: 0,
-            left: width - 3,  // main should overlay submenu
-            height: height  // padding for main dropdown's arrow
-        });
-
-        // Keep the currently activated row's highlighted look
-        $row.find("a").addClass("maintainHover");
-    }
-
-    function deactivateSubmenu(row) {
-        var $row = $(row),
-            submenuId = $row.data("submenuId"),
-            $submenu = $("#" + submenuId);
-
-        // Hide the submenu and remove the row's highlighted look
-        $submenu.css("display", "none");
-        $row.find("a").removeClass("maintainHover");
-    }
-
-    // Bootstrap's dropdown menus immediately close on document click.
-    // Don't let this event close the menu if a submenu is being clicked.
-    // This event propagation control doesn't belong in the menu-aim plugin
-    // itself because the plugin is agnostic to bootstrap.
-    $(".dropdown-menu li").click(function(e) {
-        e.stopPropagation();
-    });
-
-    $(document).click(function() {
-        // Simply hide the submenu on any click. Again, this is just a hacked
-        // together menu/submenu structure to show the use of jQuery-menu-aim.
-        $(".popover").css("display", "none");
-        $("a.maintainHover").removeClass("maintainHover");
-    });
-
-</script>
-<script src="./js/scripts.js"></script>
-
-<div class="img-banner">
-  <main role="main" property="mainContentOfPage" class="container">
+  </div>
 
 
 
-<div class="text-background-1 row col-lg-6 col-md-6 col-sm-8">
-   <div class="row col-lg-6 col-md-7 col-sm-6 col-xs-7">
+          </div>
+      </div>
+  </div></div>
+  </div>
 
-<h1 class="text-banner homeborder" style="margin-top: 10px !important; margin-left: 10px;">Canada.ca</h1>
+  <script src="js/jquery-1.9.1.min.js"></script>
 
-</div>
-</div>
+  <script src="js/jquery.menu-aim.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script>
+
+      var $menu = $(".dropdown-menu");
+
+      // jQuery-menu-aim: <meaningful part of the example>
+      // Hook up events to be fired on menu row activation.
+      $menu.menuAim({
+          activate: activateSubmenu,
+          deactivate: deactivateSubmenu
+      });
+      // jQuery-menu-aim: </meaningful part of the example>
+
+      // jQuery-menu-aim: the following JS is used to show and hide the submenu
+      // contents. Again, this can be done in any number of ways. jQuery-menu-aim
+      // doesn't care how you do this, it just fires the activate and deactivate
+      // events at the right times so you know when to show and hide your submenus.
+      function activateSubmenu(row) {
+          var $row = $(row),
+              submenuId = $row.data("submenuId"),
+              $submenu = $("#" + submenuId),
+              height = $menu.outerHeight(),
+              width = $menu.outerWidth();
+
+          // Show the submenu
+          $submenu.css({
+              display: "block",
+              top: 0,
+              left: width - 3,  // main should overlay submenu
+              height: height  // padding for main dropdown's arrow
+          });
+
+          // Keep the currently activated row's highlighted look
+          $row.find("a").addClass("maintainHover");
+      }
+
+      function deactivateSubmenu(row) {
+          var $row = $(row),
+              submenuId = $row.data("submenuId"),
+              $submenu = $("#" + submenuId);
+
+          // Hide the submenu and remove the row's highlighted look
+          $submenu.css("display", "none");
+          $row.find("a").removeClass("maintainHover");
+      }
+
+      // Bootstrap's dropdown menus immediately close on document click.
+      // Don't let this event close the menu if a submenu is being clicked.
+      // This event propagation control doesn't belong in the menu-aim plugin
+      // itself because the plugin is agnostic to bootstrap.
+      $(".dropdown-menu li").click(function(e) {
+          e.stopPropagation();
+      });
+
+      $(document).click(function() {
+          // Simply hide the submenu on any click. Again, this is just a hacked
+          // together menu/submenu structure to show the use of jQuery-menu-aim.
+          $(".popover").css("display", "none");
+          $("a.maintainHover").removeClass("maintainHover");
+      });
+
+  </script>
+  <script src="js/scripts.js"></script>
+
+  <nav role="navigation" id="wb-bc" property="breadcrumb"><h2 class="wb-inv">You are here:</h2><div class="container"><div class="row"><ol class="breadcrumb">
+<li class="cust-breadcrumb"><a href='./en.html'>Home</a></li>
+</ol></div></div></nav>
+    <main role="main" property="mainContentOfPage" class="container">
+
+
+
+
+<div class="row">
+
+	<div class="col-md-12">
+	
+		  <h1 property="name" id="wb-cont" dir="ltr">When you need a business number or CRA program accounts</h1>
+		  
+	</div><!-- col -->
+
+</div><!-- row -->
+
+<div class="row">
+
+	<div class="col-md-8">
+
+		<p>Certain business activities require registration with the <abbr title="Canada Revenue Agency">CRA</abbr> you can register for:</p>
+
+		<ul>
+		<li>a <strong>business number:</strong> a unique, 9-digit number - is the standard identifier used by the federal government for businesses</li>		
+		<li><strong>CRA program accounts:</strong> attached to a business number - used for specific business activities that must be reported to the federal government</li>
+		</ul>
+
+		<p>You likely <strong>don't have to register</strong> your business with the federal government if you don't need a <abbr title="Canada Revenue Agency">CRA</abbr> program account. </p>
+
+		<h2 class="onpage smh3">On this page</h2>
+
+		<ul class="onpage">
+		<li><a href="#needbn">When you need a business number</a></li>
+		<li><a href="#needpa">When you need CRA program accounts</a></li>
+		<li><a href="#numbers">CRA program account numbers</a></li>
+		<li><a href="#other">Other CRA program accounts</a></li>
+		</ul>
+
+		<h2 id="needbn">When you need a business number</h2>
+		
+		<p>You need a business number if you incorporate or need a <abbr title="Canada Revenue Agency">CRA</abbr> program account. </p>
+		
+		<h3>Getting a business number as part of other registrations</h3>
+
+		<p>You will automatically get a federal business number if you:</p>
+		
+		<ul>
+		<li>register for any <abbr title="Canada Revenue Agency">CRA</abbr> program accounts (like GST/HST, Payroll deductions, or Import-export)</li>
+		<li>incorporate your business federally</li>
+		</ul>
+
+		<h3>When you need a new business number</h3>
+		
+		<p>If you already have a business number and you want to change the legal ownership or the structure of your business, you may have to register for a new business number. For more information, go to <a href="../changes-your-business-categories-table.html">Changes to your business and tax accounts.</a></p>
+
+		<h2 id="needpa">When you need CRA program accounts</h2>
+		
+		<p>Each <abbr title="Canada Revenue Agency">CRA</abbr> program account has its own rules and requirements about when you need to register.</p>
+		
+		<p>The most common <abbr title="Canada Revenue Agency">CRA</abbr> program accounts businesses need are:</p>
+		
+		<ul>
+		<li><a href="../../../../../taxes/gsthst/index-en.html">GST/HST (RT)</a> - if your business collects GST/HST</li>
+		<li><a href="../../../../../taxes/payroll/index-en.html">Payroll deductions (RP)</a> - if your business pays employees
+		</li>
+		<li><a href="./corporation-income-tax-program-account.html">Corporation income tax (RC)</a> - if your business is incorporated</li>
+		<li><a href="./import-export-program-account.html">Import-export (RM)</a> - if your business imports goods or sells goods or services abroad</li>
+		</ul>
+
+		<p><a href="#other">Other <abbr title="Canada Revenue Agency">CRA</abbr> program accounts</a> are described below.</p>
+		
+		<p>Registering for a <abbr title="Canada Revenue Agency">CRA</abbr> program account will get you a business number if you don't already have one. If you already have a business number, the <abbr title="Canada Revenue Agency">CRA</abbr> program account will be <strong>added</strong> to your business number. Your business will only ever have 1 business number.</p>
+		
+		<a href="#" class="btn btn-primary green-2">Sample call to action</a>
+		
+		<p>You can register online to get a business number and the most common <abbr title="Canada Revenue Agency">CRA</abbr> program accounts:</p>
+
+		<h2 id="numbers">CRA program account numbers</h2>
+
+		<p>A <abbr title="Canada Revenue Agency">CRA</abbr> program account number has 3 parts:</p>
+		
+		<ol>
+		<li>the 9-digit <strong>business number</strong> to identify the business</li>
+		<li>a 2-letter <strong>program identifier</strong> code to identify the <abbr title="Canada Revenue Agency">CRA</abbr> program account</li>
+		<li>a 4-digit <strong>reference number</strong> to identify an individual <abbr title="Canada Revenue Agency">CRA</abbr> program account (since businesses can have more than one of the same kind)</li>
+		</ol>
+		
+		<h3>Example</h3>
+		
+		<p>A sole proprietorship needs a GST/HST program account if they need to charge GST/HST. If they have one or more employees they would need a payroll deductions program account. Once registered, the business will receive a:</p>
+		
+		<ul>
+		<li>business number:<br /><strong>123456789</strong></li>
+		<li>GST/HST program account number:<br /> <strong>123456789 RT 0001</strong></li>
+		<li>Payroll deductions program account number:<br /> <strong>123456789 RP 0001</strong></li>
+		</ul>
+		
+		<p>If the business later incorporates, they will need to register for a Corporation income tax account. That will be added to their existing business number:</p>
+		
+		<ul>
+		<li>Corporation income tax account number:<br /> <strong>123456789 RC 0001</strong></li>
+		</ul>
+
+		<h2 id="other">Other CRA program accounts</h2>
+		
+		<p>A business that files information returns such as tax free savings account (TFSA), T5, T5013 and more, may also need the following business account:</p>
+		
+		<ul>
+		<li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/financial-slips-summaries/information-returns-program-account.html">Information returns (RZ)</a></li>
+		</ul>
+		
+		<br>
+
+		<p>Very few businesses need other program accounts, such as:</p>
+		
+		<ul>
+		<li><a href="https://www.canada.ca/en/revenue-agency/services/tax/technical-information/excise-duty.html">Excise duty (RD)</a> - for businesses that need to charge excise duty on products</li>
+		<li><a href="https://www.canada.ca/en/revenue-agency/services/tax/technical-information/excise-taxes-special-levies.html">Excise tax and special levies (RE)</a> - for businesses that need to charge excise tax on products</li>
+		<li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/air-travellers-security-charge-program-account.html">Air travelers security charge (RG)</a> - for air carriers that charge the air travellers security charge</li>
+		<li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/insurance-premium-tax-program-account.html">Insurance premium tax (RN)</a> - for brokers and agents who place contracts of insurance</li>
+		<li><a href="https://www.canada.ca/en/revenue-agency/services/charities-giving/charities/applying-registration.html">Registered charity (RR)</a> - for charity organizations</li>
+		<li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/softwood-lumber-products-export-charge.html">Softwood lumber (SL)</a> - for persons who export softwood lumber products</li>
+		</ul>
+		
+		<p style="margin-top: 50px;">-------- type sample below ---------</p>
+		
+		<h1>What is Lorem Ipsum</h1>
+		
+		<p>Can you tell the difference between Il1? How about 0 and O?</p>
+		
+		<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+		
+		<h2>Standard dummy text</h2>
+		
+		<p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
+		
+		<a href="#" class="btn btn-primary green-2">Sample call to action</a><br>
+		
+		<h3>Extremes of Good and Evil</h3>
+		
+		<p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.</p>
+		
+		<h4>Popular during the Renaissance</h4>
+		
+		<p>This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+		
+		<h5>The standard chunk</h5>
+		
+		<p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+	</div><!-- col -->
+
+</div><!-- row -->
+
+
+
+
+
+
+
+
+
 <div class="clearfix"></div>
-<div class="text-background-2 row col-lg-6 col-md-6  col-sm-8">
-   <p class="text-banner" style="margin-left: 10px; font-size: 19px !important;">The official website of the Government of Canada</p>
-
-
-
-</div>
-
- </div>
-</main>
-</div>
-
-
-
-
-<div class="edge-color">
-  <main role="main" property="mainContentOfPage" class="container">
- <div class="wb-eqht row">
-
-<h2 class="col-lg-3 mini-h2s">Most requested</h2>
-<div class="clearfix"></div>
-
-     <section class="col-lg-3 col-md-6 col-sm-6">
-       <ul class="list-unstyled" style="padding-top: 12px;">
-      <li class="mr-home"><a href="https://www.canada.ca/en/government/sign-in-online-account.html">Sign in to an online account</a></li>
-    </ul>
-     </section>
-
-     <section class="col-lg-3 col-md-6 col-sm-6">
-            <ul class="list-unstyled" style="padding-top: 12px;">
-   <li class="mr-home"><a href="https://weather.gc.ca/canada_e.html">Weather</a></li>
- </ul>
-    </section>
-   <section class="col-lg-3 col-md-6 col-sm-6">
-            <ul class="list-unstyled" style="padding-top: 12px;">
-   <li class="mr-home"><a href="https://www.canada.ca/en/services/jobs/opportunities.html">Find a job</a></li>  </ul>
-  </section>
-
-  <section class="col-lg-3 col-md-6 col-sm-6">
-      <ul class="list-unstyled" style="padding-top: 12px;">
-    <li class="mr-home"><a href="https://www.canada.ca/en/services/benefits/ei.html">Employment Insurance</a></li>
-  </ul>
-  </section>
-  <section class="col-lg-3 col-md-6 col-sm-6">
-      <ul class="list-unstyled" style="padding-top: 12px;">
-    <li class="mr-home"><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp.html">Canada Pension Plan</a></li>
-  </section>
-  <section class="col-lg-3 col-md-6 col-sm-6">
-      <ul class="list-unstyled" style="padding-top: 12px;">
-   <li class="mr-home"><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security.html">Old Age Security pension</a></li></ul>
-  </section>
-  <section class="col-lg-3 col-md-6 col-sm-6">
-      <ul class="list-unstyled" style="padding-top: 12px;">
-   <li class="mr-home"><a href="services/benefits/disability.html">Disability benefits</a></li><ul>
-  </section>
-  <section class="col-lg-3 col-md-6 col-sm-6">
-          <ul class="list-unstyled" style="padding-top: 12px; padding-bottom: 10px;">
-   <li class="mr-home"><a href="https://gc-proto.github.io/design-refresh/tests/cleanup4/travel/passports.html">Get a passport</a></li></ul>
-  </section>
-
-
-
- </div>
-</main>
-</div>
-
-</section>
-
-<main role="main" property="mainContentOfPage" class="container">
-  <h2 class="wb-inv">Services and information</h2>
- <div class="wb-eqht row">
-
-   <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="services/jobs.html">Jobs and the workplace</a></h3>
-
-
-   <p>Find a job, training, hiring programs, work permits, Social Insurance number (SIN)</p>
-
-
-    </section>
-   <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></h3>
-   <p>Visit, work, study, immigrate, refugees, permanent residents, apply, check status</p>
-  </section>
-
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="http://travel.gc.ca/">Travel and tourism
-</a></h3>
-   <p>In Canada or abroad, advice, advisories, passports, visit Canada, events, attractions</p>
-  </section>
-
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/business.html">Business and industry</a></h3>
-   <p>Starting a business, grants, permits, hire employees, copyright, insolvency</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="services/benefits.html">Benefits</a></h3>
-   <p>EI, family and sickness leave, pensions, housing, education, disabilities</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/health.html">Health</a></h3>
-   <p>Food, nutrition, diseases, vaccines, drugs, product safety and recalls, health cards</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></h3>
-   <p>For individuals and businesses, filing, GST/HST, charities, savings, tax benefits</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://weather.gc.ca/canada_e.html">Environment and natural resources</a></h3>
-   <p>Weather, climate, agriculture, wildlife, pollution, conservation, fishing/hunting</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></h3>
-   <p>Military, border and cyber security, security screenings, counter-terrorism</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></h3>
-   <p>Arts, media, heritage, official languages, grants and funding</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></h3>
-   <p>Safety, justice system, prepare for emergencies, services for victims of crime</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></h3>
-   <p>Aviation, marine, road and rail, vehicle recalls, car seat safety</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="http://international.gc.ca/world-monde/index.aspx">Canada and the world</a></h3>
-   <p>Foreign policy, international trade, development, global issues</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="services/finance.html">Money and finances</a></h3>
-   <p>Personal finance, credit reports, fraud protection, education funding</p>
-  </section>
-  <section class="col-lg-4 col-md-6" style="margin-bottom: 40px;">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></h3>
-   <p>Scientific research on health, environment and space, grants and funding</p>
-  </section>
-
- </div>
-
-</section>
-
-
-<div class="clearfix"></div>
-
-</main>
-
-<div class="edge-color your-gov hidden-xs hidden-sm hidden-md">
-  <main role="main" property="mainContentOfPage" class="container">
-
- <h2 class="mini-h2s">Your government</h2>
- <div class="wb-eqht row">
-
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/contact.html">Contact us</a></h3>
-   <p>Department and agency contacts, change your address</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></h3>
-   <p>A list of current government and related organizations</p>
-  </section>
-<div class="clearfix"></div>
-
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/government/system.html">How government works</a></h3>
-   <p>Learn about government structure, priorities, finances and regulations</p>
-  </section>
-  <section class="col-lg-4 col-md-6" >
-   <h3 class="ch5" ><a href="https://www.canada.ca/en/services/youth.html">Open government</a></h3>
-   <p>Accessible government for everyone, open information and data, open dialogue</p>
-  </section>
- </div>
-
-</main>
-</div>
-
-<div class="edge-color your-gov visible-md">
-  <main role="main" property="mainContentOfPage" class="container">
-
- <h5>Your government</h5>
- <div class="wb-eqht row">
-
-  <section class="col-lg-4 col-md-5">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/contact.html">Contact us</a></h3>
-   <p>Most requested government contacts, change your address, reach a department or agency</p>
-  </section>
-  <div class="clearfix"></div>
-  <section class="col-lg-4 col-md-5">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/veterans.html">Departments and agencies</a></h3>
-   <p>Current departments, agencies, crown corporations and related organizations</p>
-  </section>
-    <div class="clearfix"></div>
-
-
-  <section class="col-lg-4 col-md-5">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/youth.html">How government works</a></h3>
-   <p>Structure, finance priorities, policies and regulations, international, provincial and aboriginal relations</p>
-  </section>
-    <div class="clearfix"></div>
-
-      <section class="col-lg-4 col-md-5">
-   <h3 class="ch5" ><a href="https://www.canada.ca/en/services/youth.html">Open government</a></h3>
-   <p>Making government more accessible to everyone, open information and data, open dialogue</p>
-  </section>
-
- </div>
-
-</main>
-</div>
-
-<div class="edge-color visible-xs visible-sm">
-  <main role="main" property="mainContentOfPage" class="container">
-
- <h2 class="mini-h2s">Your government</h2>
- <div class="wb-eqht row">
-
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/contact.html">Contact us</a></h3>
-   <p>Most requested government contacts, change your address, reach a department or agency</p>
-  </section>
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></h3>
-   <p>Current departments, agencies, crown corporations and related organizations</p>
-  </section>
-  <section class="col-lg-4 col-md-6 hidden-xs hidden-sm">
-
-  </section>
-
-  <section class="col-lg-4 col-md-6">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/government/system.html">How government works</a></h3>
-   <p>Structure, finance priorities, policies and regulations, international, provincial and aboriginal relations</p>
-  </section>
-  <section class="col-lg-4 col-md-6" >
-   <h3 class="ch5" ><a href="https://open.canada.ca/en">Open government</a></h3>
-   <p>Making government more accessible to everyone, open information and data, open dialogue</p>
-  </section>
- </div>
-
-</main>
-</div>
-<main role="main" property="mainContentOfPage" class="container">
-
-<section style="margin-top: 50px;">
- <h2 class="mini-h2s">By audience</h2>
- <div class="wb-eqht row">
-  <section class="col-lg-3">
-   <h3 class="ch5"><a href="http://www.aadnc-aandc.gc.ca/eng/1461766373625/1461766394598">Indigenous peoples</a></h3>
-   <p>Programs and services for First Nations, Inuit and Métis</p>
-  </section>
-  <section class="col-lg-3">
-   <h3 class="ch5"><a href="https://www.canada.ca/en/services/veterans.html">Veterans</a></h3>
-   <p>Services for current and former military, <abbr title="Royal Canadian Mounted Police">RCMP</abbr> and their families</p>
-  </section>
-  <section class="col-lg-3">
-   <h3 class="ch5"><a href="services/youth.html">Youth</a></h3>
-   <p>Programs and services for teenagers and young adults</p>
-  </section>
-    <section class="col-lg-3" style="margin-bottom: 30px;">
-  <h3 class="ch5"><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></h3>
-  <p>Pay, pension, benefits, training, jobs for government employees</p>
- </section>
-
- </div>
-</section>
-
- <h2 class="mini-h2s">Government initiatives</h2>
- <br>
-
- <div class="mwsfeatures mwstemplate-html section">
-
-
-     <section class="gc-prtts">
-
- 			<style>
- 		 .cust-thumbnail {
- 		   border-color: #335075 !important;
- 		   border-width: 1px !important;
- 		   padding: 0px !important;
-       margin-bottom: 0px;
- 		 }
- 		 </style>
-
-     <div class="mwsfeatures mwstemplate-html section">
-
-
-         <section class="gc-prtts">
-             <div class="row wb-eqht">
-
-
-
-
-                         <div class="mwsfeatureimage textimage parbase mrgn-bttm-md col-md-6 col-lg-6 col-sm-6">
-
-         <a  href="https://www.ic.gc.ca/eic/site/107.nsf/eng/home?open&amp;WT.mc_id=WomenEntrepreneurshipStrategy_canada.ca-home_activities-initiatives_en" style="color: #284162;">
-
-
-                 <img class="img-responsive cust-thumbnail thumbnail" src="./images/cfwes.jpg" data-emptytext="Image"/>
-            <div class="init-box">
-                <h3 class="init">Canada's First Women Entrepreneurship Strategy</h3>      </a>
-           <p class="init" style="font-size: 18px !important;">Encouraging and supporting women at every stage of entrepreneurship.</p>
-
-               </div>
-
-
-     </div>
-
-  <div class="visible-xs">   <br> </div>
-
-     <div class="mwsfeatureimage textimage parbase mrgn-bttm-md col-md-6 col-lg-6 col-sm-6">
-
-<a href="https://www.ic.gc.ca/eic/site/107.nsf/eng/home?open&amp;WT.mc_id=WomenEntrepreneurshipStrategy_canada.ca-home_activities-initiatives_en" style="color: #284162;">
-<figure>
-
-<img class="img-responsive cust-thumbnail thumbnail mrgn-bttm-sm" src="./images/actionplan.jpg" data-emptytext="Image"/>
-  <div class="init-box ">
-<h3  class="init">#HaveYourSay Online Consultations</h3></a>
-       <p class="init" style="font-size: 18px !important;">Allows Canadians to share ideas and thoughts on Veterans' issues and priorities.</p>
-</div>
-
-
-</figure>
-
-</div>
-
-</section>
-
-
-
-
-
-</section>
-
 
  </div>
 
