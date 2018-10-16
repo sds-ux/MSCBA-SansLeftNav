@@ -88,13 +88,14 @@ main.container p {
 }
 
 
-.mr-home {
+main.container .mr-home {
 
 	font-size: 18px !important;
 	font-weight: 600 !important;
 	padding-bottom: 7px ;
+	margin-left: 0;
 	font-family: 'Lato', sans-serif !important;
-
+list-style-type: none !important;
 }
 
 
@@ -153,6 +154,10 @@ p, ul, li {
 
 
 
+}
+
+ul.list-unstyled {
+	list-style-type: none;
 }
 
 strong {
@@ -479,9 +484,9 @@ section.lnkbx ul {
 							}
 
 		.mr-home {
-
-								font-size: 19px !important;
-
+					list-style-type: none !important;
+					font-size: 19px !important;
+					padding-bottom: 0 !important;
 							}
 
 			.breadcrumb {
