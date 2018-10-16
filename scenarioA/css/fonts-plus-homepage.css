@@ -71,12 +71,18 @@ main.container p {
 }
 
 
-/* On this page, reducing size as an h2*/
-.smh3 {
-
-	font-size: 28px !important;
-	margin-bottom: 0px !important;
-
+/* On this page */
+section.otp {
+	border-top: 1px dotted #ccc;
+		border-bottom: 1px dotted #ccc;
+	padding-bottom: 2.5em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+section.otp h2 {
+	margin-top: 1em;
+		margin-bottom: 1em;
+	font-size: 27px !important;
 }
 
 /* topic links */
@@ -90,12 +96,20 @@ main.container p {
 
 main.container .mr-home {
 
-	font-size: 18px !important;
+	font-size: 17px !important;
 	font-weight: 600 !important;
-	padding-bottom: 7px ;
+	padding-bottom: 7px;
 	margin-left: 0;
+	margin-bottom: 0 !important;
 	font-family: 'Lato', sans-serif !important;
 list-style-type: none !important;
+}
+
+main.container .doormats p {
+	font-size: 17px !important;
+	font-family: 'Lato', sans-serif !important;
+	padding-top: 0 !important;
+	line-height: 26px !important;
 }
 
 
