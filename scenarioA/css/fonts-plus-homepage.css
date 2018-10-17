@@ -304,6 +304,10 @@ div.uncarousel a.learnmore figcaption p {
 	margin-top: 10px;
 }
 
+.gc-prtts p.init {
+	line-height: 26px !important;
+	padding: 0 !important;
+}
 
 .img-banner {
 	background-image: url("../images/canada-bkg.jpg");
