@@ -3,7 +3,7 @@
 
 
 body {
-	border: 10px solid red;
+	border: 0px solid red;
 }
 
 body, header, nav#wb-bc {
@@ -110,15 +110,14 @@ main.container section.gc-drmt {
 	margin-top: 0px !important;
 	padding-top: 0px !important;
 }
-main.container .gc-drmt h3 a {
+main.container .gc-drmt h3 a,
+main.container div.doormats h3 a {
 	font-size: 20px !important;
 }
-main.container .gc-drmt p {
+main.container .gc-drmt p,
+main.container div.doormats p {
 	font-size: 17px !important;
 	padding-top: 0 !important;
-}
-main.container .doormats p {
-	font-size: 17px !important;
 	font-family: 'Lato', sans-serif !important;
 	padding-top: 0 !important;
 	line-height: 26px !important;
@@ -196,6 +195,23 @@ abbr {
 
 .list-group-item {
 	background-color: #F8F8F8;
+}
+
+/* theme page uncarousels */
+div.uncarousel {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+div.uncarousel a.learnmore figcaption {
+	background-color: #f9f9f9 !important;
+	border: 1px #ddd solid;
+}
+div.uncarousel a.learnmore figcaption p {
+	text-decoration: underline !important;
+	color: #284162;
+}
+.wb-tabs.carousel-s1 figcaption, .wb-tabs.carousel-s2 figcaption {
+	z-index: 1 !important;
 }
 
 /* menu items */
