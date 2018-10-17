@@ -3,23 +3,26 @@
 
 
 body {
-		 border: 10px solid red;
+	border: 10px solid red;
 }
 
-/* start font customizations */
+body, header, nav#wb-bc {
+	background-color: white !important;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+#wb-dtmd {
+	font-size: 16px !important;
+}
 
 h1 {
-
 	font-size: 39px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 	border-bottom: 1px solid #af3c43
-
-
 }
 
 .mini-h2s {
-
 	padding-top: 0px !important;
 	margin-top: 25px !important;
 	font-size: 24px !important;
@@ -27,36 +30,25 @@ h1 {
 	font-family: 'Lato', sans-serif;
 }
 
-
 h2 {
-
 	font-size: 32px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 	padding-top: 15px !important;
-
-
 }
 
-
 h3 {
-
 	font-size: 28px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 	padding-top: 5px !important;
-
 }
 
-
 h4 {
-
 	font-size: 24px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 }
-
-
 
 h5 {
 
@@ -65,150 +57,25 @@ h5 {
 	font-family: 'Lato', sans-serif;
 }
 
+/* text formatting */
 
-/* larger font size for text-heavy content */
-main.container p {
-	font-size: 20px !important;
-	font-family: 'Noto sans', sans-serif !important;
-	line-height: 34px !important;
-	padding-top: 8px !important;
-	padding-bottom: 8px !important;
-}
-
-
-/* On this page */
-section.otp {
-	border-top: 1px dotted #ccc;
-		border-bottom: 1px dotted #ccc;
-	padding-bottom: 2.5em;
-	margin-top: 2em;
-	margin-bottom: 2em;
-}
-section.otp h2 {
-	margin-top: 1em;
-		margin-bottom: 1em;
-	font-size: 27px !important;
-}
-
-/* topic links */
-
-.ch5 {
-
-	font-size: 20px !important;
-
-}
-
-
-main.container .mr-home {
-
-	font-size: 17px !important;
-	font-weight: 600 !important;
-	padding-bottom: 7px;
-	margin-left: 0;
-	margin-bottom: 0 !important;
-	font-family: 'Lato', sans-serif !important;
-list-style-type: none !important;
-}
-
-main.container .doormats p {
-	font-size: 17px !important;
-	font-family: 'Lato', sans-serif !important;
-	padding-top: 0 !important;
-	line-height: 26px !important;
-}
-
-
-
-body, header, nav#wb-bc {
-
-
-	background-color: white !important;
-	font-family: 'Noto Sans', sans-serif;
-
-	}
-
-#wb-dtmd {
-
-	font-size: 16px !important;
-
-}
-
-/*
-ul.menu li {
-
-	font-size: 16px !important;
-	line-height: 22px !important;
-}
-
-*/
-
-
-
-.green-2 {
-/* AAA pass on lrg text */
-	margin-top: 15px !important;
-	margin-bottom: 25px !important;
-	font-size: 22px !important;
-	color: white !important;
-	background-color: #318000 !important;
-	border: 1px solid #455E82 !important;
-	font-weight: 600 !important;
-	font-family: "Lato";
-	padding: 10px 20px 10px 20px !important;
-
-}
-
-
-
-.is-size-5 {
-
-		font-size: 19px !important;
-
-}
 p, ul, li {
-
-
 	font-size: 17px !important;
 	line-height: 26px !important;
-
-
-
 }
 
-ul.list-unstyled {
-	list-style-type: none;
+.cust-breadcrumb {
+	font-size: 16px !important;
 }
-
-strong {
-
-	  font-weight: 600 !important;
-
-}
-
 
 td {
-
 	font-size: 19px !important;
 	font-family: 'Noto sans', sans-serif; !important;
-
 }
 
 caption, th {
-
 	font-size: 17px !important;
 	font-family: 'Noto sans', sans-serif; !important;
-
-}
-
-abbr {
-
-	border-bottom: none !important;
-	text-decoration: none !important;
-}
-
-.onpage {
-
-	padding-bottom: 20px;
 }
 
 main.container li {
@@ -227,117 +94,166 @@ main.container li {
 	color: black;
 }
 
+/* larger font size for text-heavy content */
 
-
-
-
-/* font size in li of breadcrumb */
-
-.cust-breadcrumb {
-
-	font-size: 16px !important;
-
-
-
+main.container p {
+	font-size: 20px !important;
+	font-family: 'Noto sans', sans-serif !important;
+	line-height: 34px !important;
+	padding-top: 8px !important;
+	padding-bottom: 8px !important;
 }
 
+/* doormats */
 
+main.container section.gc-drmt {
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+main.container .gc-drmt h3 a {
+	font-size: 20px !important;
+}
+main.container .gc-drmt p {
+	font-size: 17px !important;
+	padding-top: 0 !important;
+}
+main.container .doormats p {
+	font-size: 17px !important;
+	font-family: 'Lato', sans-serif !important;
+	padding-top: 0 !important;
+	line-height: 26px !important;
+}
 
-/* removing padding that pushes content down a lot */
+/* on this page */
+
+section.otp {
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 2.5em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+section.otp h2 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 27px !important;
+}
+.onpage {
+	padding-bottom: 20px;
+}
+
+/* most requested boxes */
+
+main.container .mostrequested li {
+	font-size: 19px !important;
+}
+
+/* most requested on home page */
+
+main.container .mr-home {
+	font-size: 17px !important;
+	font-weight: 600 !important;
+	padding-bottom: 7px;
+	margin-left: 0;
+	margin-bottom: 0 !important;
+	font-family: 'Lato', sans-serif !important;
+	list-style-type: none !important;
+}
+
+.green-2 {
+	margin-top: 15px !important;
+	margin-bottom: 25px !important;
+	font-size: 22px !important;
+	color: white !important;
+	background-color: #318000 !important;
+	border: 1px solid #455E82 !important;
+	font-weight: 600 !important;
+	font-family: "Lato";
+	padding: 10px 20px 10px 20px !important;
+}
+
+.is-size-5 {
+	font-size: 19px !important;
+}
+
+ul.list-unstyled {
+	list-style-type: none;
+}
+
+strong {
+	  font-weight: 600 !important;
+}
+
+abbr {
+	border-bottom: none !important;
+	text-decoration: none !important;
+}
+
 .breadcrumb {
-
 	margin-bottom: -20px !important;
 	padding-top: 2px !important;
 }
 
-
-
-
 .list-group-item {
-
-
-background-color: #F8F8F8;
-
-	}
+	background-color: #F8F8F8;
+}
 
 /* menu items */
-
 .cust-small   {
-
 	margin-top: -3px !important;
 	font-size: 16px !important;
-
-
-
 }
-
 
 /* for the active menu item color */
-
 .cust-active   {
-
 	background-color: #4d4d4d !important;
 	border-color: #8f8f8f  !important;
-
 }
 
-
-
 .text-banner {
-
 	color: white;
 	margin-top: 8px;
-
-
 }
 
 .text-background-1 {
-
-		background-color: #26374a;
-		padding-top: 15px;
-		/* opacity: .95; */
-
+	background-color: #26374a;
+	padding-top: 15px;
+	/* opacity: .95; */
 }
-
 
 .text-background-2 {
-
-		background-color: #26374a;
-		padding-bottom: 15px;
-		/* opacity: .95; */
+	background-color: #26374a;
+	padding-bottom: 15px;
+	/* opacity: .95; */
 }
 
-
 .your-gov {
-	 background-image: url("../images/your-gov.jpg");
-    background-color: #f0f0f0;
-    display: inline-block;
-    padding-top: 30px !important;
-    padding-bottom: 40px !important;
-		background-repeat: no-repeat;
-
-		background-position: right center;
+	background-image: url("../images/your-gov.jpg");
+	background-color: #f0f0f0;
+	display: inline-block;
+	padding-top: 30px !important;
+	padding-bottom: 40px !important;
+	background-repeat: no-repeat;
+	background-position: right center;
 }
 
 .your-gov-2 {
-	 background-image: url("../images/your-gov-2.jpg");
-    display: inline-block;
-    padding-top: 30px !important;
-    padding-bottom: 40px !important;
-		background-repeat: no-repeat;
-
-		background-position: right center;
+	background-image: url("../images/your-gov-2.jpg");
+	display: inline-block;
+	padding-top: 30px !important;
+	padding-bottom: 40px !important;
+	background-repeat: no-repeat;
+	background-position: right center;
 }
 
 .by-aud {
-	 background-image: url("../images/audience.jpg");
-    background-color: #f0f0f0;
-    display: inline-block;
-    padding-top: 30px !important;
-    padding-bottom: 40px !important;
-		background-repeat: no-repeat;
-
-		background-position: right center;
+	background-image: url("../images/audience.jpg");
+	background-color: #f0f0f0;
+	display: inline-block;
+	padding-top: 30px !important;
+	padding-bottom: 40px !important;
+	background-repeat: no-repeat;
+	background-position: right center;
 }
 
 .edge-color {
@@ -346,30 +262,24 @@ background-color: #F8F8F8;
     width: 100%;
     padding-top: 0px;
     padding-bottom: 15px;
-
 }
 
 .homeborder {
-
 	font-weight: 500 !important;
 	font-family: 'Lato', sans-serif;
 	border-bottom: 4px solid #af3c43;
-
-
 }
 
 .canadamenu {
-
 	display: inline-block;
 	width: 100%;
 	max-height: 100px;
 	/* border-bottom: 1px solid #38414d; */
 	border-top: 3px solid #38414d;
-		margin-top: 10px;
+	margin-top: 10px;
 }
 
 .homemenu {
-
 	display: inline-block;
 	width: 100%;
 	max-height: 100px;
@@ -380,65 +290,47 @@ background-color: #F8F8F8;
 
 
 .img-banner {
-
-background-image: url("../images/canada-bkg.jpg");
+	background-image: url("../images/canada-bkg.jpg");
 	background-color: #26374a;
-  background-repeat: no-repeat;
-  background-size:100% auto;
-  width: 100%;
-  padding-top: 45px;
-  padding-bottom: 45px;
-
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	width: 100%;
+	padding-top: 45px;
+	padding-bottom: 45px;
 }
 
 .content-restrict {
-
 	display: inline-block !important;
 	position: relative;
 	max-width: 70em;
-
 }
-
 
 .footer-text {
-
 	color: white !important;
-
 }
 
-
-.parliament
-{
-
+.parliament {
 	background-image: url("../images/parliament-vector.png");
 	background-color: #26374a;
 	background-repeat: no-repeat;
 	background-position: right bottom;
-
-
 }
-.brand {
 
+.brand {
 	background: white !important;
 	border-top: none !important;
 }
 
 section.lnkbx ul {
-
 	padding-top: 15px;
 	padding-bottom: 18px;
 }
 
-
-
-
 .init-box {
-
 	padding: 15px;
 	min-height: 135px;
 	background-color: #f9f9f9 !important;
 	border: 1px #ddd solid;
-
 }
 
 .init {
@@ -446,76 +338,7 @@ section.lnkbx ul {
 	margin-left: 15px;
 	margin-right: 15px;
 	font-size: 20px !important;
-
 }
-
-
-/*  tablet/mobile fonts customizations and scaling */
-
-@media screen and (max-width: 1200px) {
-
-	.init-box {
-
-		padding: 15px;
-		min-height: 155px;
-		max-height: 185px;
-		background-color: #f9f9f9 !important;
-		border: 1px #ddd solid;
-
-	}
-
-	p, ul, li {
-
-
-		font-size: 19px !important;
-		line-height: 26px !important;
-
-	}
-
-	h1 {
-			font-size: 32px !important;
-
-		}
-
-	h2 {
-				font-size: 32px !important;
-
-			}
-
-	h3 {
-				font-size: 26px !important;
-
-					}
-
-	h4 {
-						font-size: 24px !important;
-									}
-
-	h5 {
-				font-size: 21px !important;
-
-							}
-
-	.ch5 {
-
-				font-size: 21px !important;
-
-							}
-
-		.mr-home {
-					list-style-type: none !important;
-					font-size: 19px !important;
-					padding-bottom: 0 !important;
-							}
-
-			.breadcrumb {
-
-				margin-top: 15px !important;
-				margin-bottom: 12px !important;
-			}
-
-}
-
 
 button#wb-srch-sub a:visited {
 	color: white !important;
@@ -523,8 +346,6 @@ button#wb-srch-sub a:visited {
 button#wb-srch-sub a {
 	color: white !important;
 }
-
-
 
 .topmenu ul.nav > li > a   {
 	background-color: #26374a !important;
@@ -549,4 +370,58 @@ button#wb-srch-sub a {
 	margin-right: 10px;
 	margin-left: 14px;
 	background-color: #26374a;
+}
+
+/*  tablet/mobile fonts customizations and scaling */
+
+@media screen and (max-width: 1200px) {
+
+	.init-box {
+		padding: 15px;
+		min-height: 155px;
+		max-height: 185px;
+		background-color: #f9f9f9 !important;
+		border: 1px #ddd solid;
+	}
+
+	p, ul, li {
+		font-size: 19px !important;
+		line-height: 26px !important;
+	}
+
+	h1 {
+		font-size: 32px !important;
+	}
+
+	h2 {
+		font-size: 32px !important;
+	}
+
+	h3 {
+		font-size: 26px !important;
+	}
+
+	h4 {
+		font-size: 24px !important;
+	}
+
+	h5 {
+		font-size: 21px !important;
+	}
+
+	.ch5 {
+		font-size: 21px !important;
+	}
+
+	.mr-home {
+		list-style-type: none !important;
+		font-size: 19px !important;
+		padding-bottom: 0 !important;
+	}
+
+	.breadcrumb {
+		margin-top: 15px !important;
+		margin-bottom: 12px !important;
+	}
+
 }
