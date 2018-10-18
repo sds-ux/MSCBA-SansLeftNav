@@ -209,6 +209,7 @@ div.uncarousel a.learnmore figcaption {
 div.uncarousel a.learnmore figcaption p {
 	text-decoration: underline !important;
 	color: #284162;
+	margin: 0 0 0 11.5px;
 }
 .wb-tabs.carousel-s1 figcaption, .wb-tabs.carousel-s2 figcaption {
 	z-index: 1 !important;
