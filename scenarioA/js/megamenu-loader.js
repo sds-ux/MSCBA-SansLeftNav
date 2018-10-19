@@ -1,6 +1,6 @@
 
 	//load in the megamenu
-	$( "#include-menu" ).load( "../ajax/include-menu-en.html", function() {
+	$( "#include-menu" ).load( "https://gc-proto.github.io/student-loans/scenarioA/ajax/include-menu-en.html", function() {
 		
 		var $menu = $(".dropdown-menu");
 		
