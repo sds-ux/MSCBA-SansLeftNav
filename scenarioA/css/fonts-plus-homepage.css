@@ -64,6 +64,11 @@ p, ul, li {
 	line-height: 26px !important;
 }
 
+main.container p, 
+main.container li {
+	max-width: 38em !important;
+	} 
+
 .cust-breadcrumb {
 	font-size: 16px !important;
 }
