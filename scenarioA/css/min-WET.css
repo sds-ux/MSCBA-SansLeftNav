@@ -298,8 +298,8 @@ th {
 
 @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url(https://www.canada.ca/fonts/glyphicons-halflings-regular.eot);
-    src: url(https://www.canada.ca/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(https://www.canada.ca/fonts/glyphicons-halflings-regular.woff) format("woff"), url(https://www.canada.ca/fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(https://www.canada.ca/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg")
+    src: url(../fonts/glyphicons-halflings-regular.eot);
+    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(../fonts/glyphicons-halflings-regular.woff) format("woff"), url(../fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg")
 }
 
 .glyphicon {
@@ -5833,11 +5833,7 @@ a.list-group-item:hover {
     z-index: 2;
     color: #fff;
     background-color: #2572b4;
-    border-color: #8f8f8f
-}
-
-.next a  {
-    font-size: 26px!important;
+    border-color: #2572b4
 }
 
 .list-group-item.active .list-group-item-heading,
@@ -7863,7 +7859,7 @@ table.dataTable thead .sorting-icons:before {
 [dir=rtl] .dataTables_wrapper .dataTables_paginate .paginate_button.previous:after,
 [dir=rtl] .pager [rel=prev]:after,
 [dir=rtl] .pagination [rel=prev]:after {
-    content: "\e091";
+    content: "\e092";
     margin-left: .5em
 }
 
@@ -13966,7 +13962,7 @@ a.shr-opn:hover {
 .toc li .list-group-item.active,
 .toc li .list-group-item.active:focus,
 .toc li .list-group-item.active:hover {
-    background-color: #4d4d4d;
+    background-color: #335075;
     color: #fff;
     cursor: auto;
     text-decoration: none;
