@@ -104,6 +104,9 @@ main.container ul.toc li {
 	margin-left: 0 !important;
 	padding-left: 0 !important;
 	}
+main.container ul.toc li:last-child {
+	margin-bottom: 40px !important;
+	}
 
 .bullet {
 	font-size: 19px !important;
