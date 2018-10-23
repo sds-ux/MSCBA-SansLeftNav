@@ -64,6 +64,19 @@ p, ul, li {
 	line-height: 26px !important;
 }
 
+main.container p, 
+main.container li, 
+main.container h2, 
+main.container h3, 
+main.container h4, 
+main.container h5, 
+main.container h6 {
+	max-width: 780px !important;
+	}  
+main.container li {
+	max-width: 710px !important;
+	} 
+
 .cust-breadcrumb {
 	font-size: 16px !important;
 }
@@ -86,6 +99,11 @@ main.container li {
 	margin-bottom: 10px !important;
 	list-style-type: disc !important;
 }
+
+main.container ul.toc li {
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+	}
 
 .bullet {
 	font-size: 19px !important;
