@@ -87,6 +87,11 @@ main.container li {
 	list-style-type: disc !important;
 }
 
+main.container ul.toc li {
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+	}
+
 .bullet {
 	font-size: 19px !important;
 	line-height: 28px !important;
