@@ -13960,6 +13960,7 @@ a.shr-opn:hover {
 .toc li .list-group-item:focus,
 .toc li .list-group-item:hover {
     background-color: #4d4d4d;
+    color: #fff;
     text-decoration: none
 }
 
