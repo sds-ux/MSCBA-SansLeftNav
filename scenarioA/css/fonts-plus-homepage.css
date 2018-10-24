@@ -64,18 +64,18 @@ p, ul, li {
 	line-height: 26px !important;
 }
 
-main.container p, 
-main.container li, 
-main.container h2, 
-main.container h3, 
-main.container h4, 
-main.container h5, 
+main.container p,
+main.container li,
+main.container h2,
+main.container h3,
+main.container h4,
+main.container h5,
 main.container h6 {
 	max-width: 780px !important;
-	}  
+	}
 main.container li {
 	max-width: 710px !important;
-	} 
+	}
 
 .cust-breadcrumb {
 	font-size: 16px !important;
@@ -131,7 +131,7 @@ main.container div.result p.url {
 	color: #3c763d !important;
 	margin-top: 0 !important;
 	}
-	
+
 main.container div.result li {
 	margin-left: 0 !important;
 	}
@@ -270,9 +270,13 @@ div.uncarousel a.learnmore figcaption p {
 	border-color: #8f8f8f  !important;
 }
 
-.text-banner {
+main.container .text-banner {
 	color: white;
 	margin-top: 8px;
+}
+main.container p.text-banner {
+	margin-top: 8px !important;
+	padding: 0 !important;
 }
 
 .text-background-1 {
