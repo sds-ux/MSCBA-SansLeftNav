@@ -16,13 +16,17 @@ body, header, nav#wb-bc {
 }
 
 h1 {
-	font-size: 39px !important;
+
+	font-size: 38px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 	border-bottom: 1px solid #af3c43
+
+
 }
 
 .mini-h2s {
+
 	padding-top: 0px !important;
 	margin-top: 25px !important;
 	font-size: 24px !important;
@@ -30,32 +34,44 @@ h1 {
 	font-family: 'Lato', sans-serif;
 }
 
+
 h2 {
-	font-size: 32px !important;
+
+	font-size: 37px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 	padding-top: 15px !important;
+
+
 }
 
+
 h3 {
+
 	font-size: 28px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 	padding-top: 5px !important;
+
 }
 
+
 h4 {
-	font-size: 24px !important;
+
+	font-size: 25px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 }
+
+
 
 h5 {
 
-	font-size: 23px !important;
+	font-size: 20px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 }
+
 
 /* text formatting */
 
@@ -498,24 +514,23 @@ body.homepage button#wb-srch-sub a {
 	}
 
 	h1 {
-		font-size: 32px !important;
-	}
+			font-size: 33px !important;
+
+		}
 
 	h2 {
-		font-size: 32px !important;
-	}
+				font-size: 33px !important;
+
+			}
 
 	h3 {
-		font-size: 26px !important;
-	}
+				font-size: 26px !important;
+
+					}
 
 	h4 {
-		font-size: 24px !important;
-	}
-
-	h5 {
-		font-size: 21px !important;
-	}
+						font-size: 23px !important;
+									}
 
 	.ch5 {
 		font-size: 21px !important;
