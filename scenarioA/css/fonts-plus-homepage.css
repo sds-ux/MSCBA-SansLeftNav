@@ -100,13 +100,22 @@ main.container li {
 	list-style-type: disc !important;
 }
 
+main.container ul.toc {
+	border-bottom: 1px solid #ccc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 40px;
+}
 main.container ul.toc li {
+	font-size: 17px !important;
 	margin-left: 0 !important;
+	margin-right: 0 !important;
 	padding-left: 0 !important;
 	}
-main.container ul.toc li:last-child {
-	margin-bottom: 40px !important;
-	}
+
+main.container ul.toc + h2 {
+	margin-top: 0 !important;
+}
 
 .bullet {
 	font-size: 19px !important;
