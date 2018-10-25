@@ -113,7 +113,8 @@ main.container ul.toc li {
 	padding-left: 0 !important;
 	}
 
-main.container ul.toc + h2 {
+main.container ul.toc + h2,
+main.container ul.toc + h3 {
 	margin-top: 0 !important;
 }
 
