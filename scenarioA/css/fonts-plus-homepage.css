@@ -107,13 +107,24 @@ caption, th {
 	font-family: 'Noto sans', sans-serif; !important;
 }
 
+main.container ul {
+	margin-top: 1em !important;
+	margin-bottom: 1em !important;
+}
+
 main.container li {
 	font-size: 20px !important;
 	font-family: 'Noto sans', sans-serif !important;
-	line-height: 34px !important;
+	line-height: 32px !important;
 	margin-left: 50px;
-	margin-bottom: 10px !important;
+	margin-bottom: 3px !important;
 	list-style-type: disc !important;
+}
+main.container ul.lst-spcd li {
+	margin-bottom: 10px !important;
+}
+main.container li:last-child {
+	margin-bottom: 0px !important;
 }
 
 main.container ul.toc {
