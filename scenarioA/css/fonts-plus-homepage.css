@@ -119,6 +119,14 @@ main.container li {
 	margin-bottom: 3px !important;
 	list-style-type: disc !important;
 }
+
+/* so that the bullet doesn't show on the detail summary */
+main.container ul.list-unstyled li {
+	margin-left: 0px;
+	list-style-type: none !important;
+}
+
+
 main.container ul.lst-spcd li {
 	margin-bottom: 10px !important;
 }
