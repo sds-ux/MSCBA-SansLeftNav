@@ -40,11 +40,12 @@ h2 {
 	font-size: 37px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
-	padding-top: 15px !important;
 
 
 }
-
+main.container h2 {
+	margin-top: 53px !important;
+	}
 
 h3 {
 
