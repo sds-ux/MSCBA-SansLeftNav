@@ -28,7 +28,8 @@ h1 {
 .mini-h2s {
 
 	padding-top: 0px !important;
-	margin-top: 25px !important;
+	margin-top: 23px !important;
+	margin-bottom: 23px !important;
 	font-size: 24px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
@@ -37,7 +38,7 @@ h1 {
 
 h2 {
 
-	font-size: 38px !important;
+	font-size: 37px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 
@@ -75,8 +76,8 @@ h5 {
 	margin-bottom: 0px !important;
 }
 
-
-main.container h2 {
+.secondary main.container h2
+ {
 	margin-top: 60px !important;
 	}
 
@@ -246,9 +247,10 @@ main.container .lnkbx li {
 main.container .mr-home {
 	font-size: 17px !important;
 	font-weight: 600 !important;
-	padding-bottom: 7px;
+	padding-bottom: 0px;
 	margin-left: 0;
-	margin-bottom: 0 !important;
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
 	font-family: 'Lato', sans-serif !important;
 	list-style-type: none !important;
 }
