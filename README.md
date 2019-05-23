@@ -1,7 +1,4 @@
-# student-loans
-## Repo for Student Loans optimization prototyping project
-A collaboration between TBS Digital Transformation Office and Employment and Social Development Canada
+## Repo template for future Oprimization related prototyping projects.
 
-This repo is a clone of the prototype that will be tested by TBS. This repo includes changes recommended by ESDC. 
+This respository should be used in future to clone and adjust as need be.
 
-If you have any questions or concerns about content in this repo, please contact Erin Browning.
