@@ -3,7 +3,7 @@
 <!--[if gt IE 8]><!--><html class="no-js" lang="en" dir="ltr"><!--<![endif]-->
 <head>
 
-	<title>Disability benefits - Canada.ca</title>
+	<title>Topic title - Canada.ca</title>
 	<link rel="stylesheet" href="../../css/mobile-mm.css" />
 	<link rel="stylesheet" href="../../css/bootstrap.css" />
 	<link rel="stylesheet" href="../../css/desktop-mm.css" />
@@ -135,9 +135,9 @@
 
 		<div class="col-md-12">
 
-			<h1 property="name" id="wb-cont">Disability benefits</h1>
+			<h1 property="name" id="wb-cont">Topic title</h1>
 
-			<p>Includes disability pensions and children's benefits, savings plans and a gasoline tax refund program.</p>
+  			<p>1-2 sentences that describe the topics and top tasks that can be accessed on this page.</p>
 
 		</div><!-- col-md-12 -->
 
@@ -149,109 +149,73 @@
 
 			<section class="lnkbx">
 
-				<h2>Most requested</h2>
+				<h2 style="margin-top: 8px !important;">Most requested</h2>
 
 				<ul>
-				<li><a href="http://www.servicecanada.gc.ca/eng/online/mysca.shtml">Access My Service Canada Account</a></li>
-				<li><a href="http://www.esdc.gc.ca/en/service_canada/direct_deposit.page">Sign up for direct deposit</a></li>
-				<li><a href="http://www.veterans.gc.ca/eng/e_services">My <abbr>VAC</abbr> Account (Veterans Affairs Canada)</a></li>
-				<li><a href="http://www.veterans.gc.ca/eng/services/resources/benefits"><abbr title="Veterans Affairs Canada">VAC</abbr> Benefits Browser</a></li>
-				<li><a href="http://www.cra-arc.gc.ca/myaccount/">My Account for Individuals (Canada Revenue Agency)</a></li>
-				<li><a href="http://www.canada.ca/en/services/benefits/calendar.html">Payment calendar</a></li>
-				<li><a href="http://www.canadabenefits.gc.ca/f.1.2cw.3zardq.5esti.4ns@.jsp">Benefits finder</a></li>
-				<li><a href="http://www.esdc.gc.ca/eng/disability/index.shtml">Disability programs and services</a></li>
+				<li><a href="https://csnpe-nslsc.cibletudes-canlearn.ca/Eng/Default.aspx">[Top task hyperlink text] </a></li>
+				<li><a href="./student-aid/repay-student-loan-assistance.html">[Top task hyperlink text] </a></li>
+				<li><a href="./student-aid/repay-student-loan-more.html#tax">[Top task hyperlink text] </a></li>
+
 				</ul>
 
 			</section>
 
 		</div><!-- col-md-4 pull-right -->
 
+
 		<section class="col-md-8 pull-left">
 
-			<h2>Services and information</h2>
+			<h2 style="margin-top: 50px !important;">Services and information</h2>
 
 			<div class="row wb-eqht">
 
-				<section class="col-md-6">
+
+				<div class="col-md-6">
 
 					<section class="gc-drmt">
-					<h3 class="h5"><a href="http://www.canada.ca/en/employment-social-development/services/benefits/disability/living.html">Living with a disability</a></h3>
-					<p>Services and financial benefits to assist people with disabilities and their families.</p>
+					<h3 class="h5"><a href="student-aid/apprenticeship.html">[Subtopic hyperlink text]</a></h3>
+					<p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
 					</section>
 
-				</section>
-
-				<section class="col-md-6">
+				</div>
+				<div class="col-md-6">
 
 					<section class="gc-drmt">
-					<h3 class="h5"><a href="http://www.canada.ca/en/revenue-agency/services/child-family-benefits/child-disability-benefit.html">Child Disability Benefit</a></h3>
-					<p>Determine if you are eligible to receive a tax-free benefit for families caring for a child with a disability, learn how the benefit is calculated, and obtain the forms necessary to apply.</p>
+					<h3 class="h5"><a href="https://www.canada.ca/en/services/benefits/education/scholarships.html">[Subtopic hyperlink text]</a></h3>
+					<p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
 					</section>
 
-				</section>
+				</div>
 
-				<section class="col-md-6">
+				<div class="col-md-6">
 
 					<section class="gc-drmt">
-					<h3 class="h5"><a href="http://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-disability-benefit.html">Canada Pension Plan disability benefits</a></h3>
-					<p>Taxable benefit you may be eligible for if you are unable to work because of a disability.</p>
+					<h3 class="h5"><a href="http://www.aadnc-aandc.gc.ca/eng/1461940615477/1461940651472">[Subtopic hyperlink text]</a></h3>
+					<p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
 					</section>
-
-				</section>
-
-				<section class="col-md-6">
-
+				</div>
+			<div class="col-md-6">
 					<section class="gc-drmt">
-					<h3 class="h5"><a href="http://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/excise-gasoline-tax-refund.html">Federal excise gasoline tax refund program</a></h3>
-					<p>Apply for a refund for some of the gas you buy if you have a mobility impairment that prevents the use of public transportation.</p>
+					<h3 class="h5"><a href="https://www.canada.ca/en/employment-social-development/services/student-financial-aid/reservists.html">[Subtopic hyperlink text]</a></h3>
+					<p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
 					</section>
-
-				</section>
-
-				<section class="col-md-6">
-
+				</div>
+			<div class="col-md-6">
 					<section class="gc-drmt">
-					<h3 class="h5"><a href="http://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-childrens-benefit.html">Canada Pension Plan children's benefits</a></h3>
-					<p>Apply for this monthly payment if you receive Canada Pension Plan disability benefits and have eligible dependent children under the age of 25 in your care and custody.</p>
+					<h3 class="h5"><a href="https://www.canada.ca/en/employment-social-development/services/student-financial-aid/protected-persons.html">[Subtopic hyperlink text]</a></h3>
+					<p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
 					</section>
-
-				</section>
-
-				<section class="col-md-6">
-
+				</div>
+					<div class="col-md-6">
+				
 					<section class="gc-drmt">
-					<h3 class="h5"><a href="http://www.canada.ca/en/employment-social-development/programs/disability/savings/grants-bonds.html">Canada Disability Savings Grant and Bond</a></h3>
-					<p>Information about how the Government can help you save by contributing to your Registered Disability Savings Plan.</p>
+					<h3 class="h5"><a href=" https://www.canada.ca/en/canadian-heritage/services/funding/athlete-assistance.html ">[Subtopic hyperlink text]</a></h3>
+					<p>Summary of the information or tasks that can be accomplished on the sub-topic page. Remove prose or promotional messaging. Use action verbs.</p>
 					</section>
 
-				</section>
+				</div>
 
-				<section class="col-md-6">
-
-					<section class="gc-drmt">
-					<h3 class="h5"><a href="http://www.veterans.gc.ca/eng/services/after-injury/disability-benefits/disability-award">Disability award</a></h3>
-					<p>A tax-free cash award for injured Canadian Forces members or Veterans with an injury or illness resulting from military service.</p>
-					</section>
-
-				</section>
-
-				<section class="col-md-6">
-
-					<section class="gc-drmt">
-					<h3 class="h5"><a href="http://www.veterans.gc.ca/eng/services/after-injury/disability-benefits/disability-pension">Disability pension</a></h3>
-					<p>Information on receiving monthly tax-free payments if you are an eligible War Service Veteran, Civilian, Royal Canadian Mounted Police member, Canadian Forces member or Veteran.</p>
-					</section>
-
-				</section>
-
-				<section class="col-md-6">
-
-					<section class="gc-drmt">
-					<h3 class="h5"><a href="http://www.canada.ca/en/services/benefits/disability/education.html">Education funding for people with disabilities</a></h3>
-					<p>Links to services, benefits and programs to assist people with disabilities and their family.</p>
-					</section>
-
-				</section>
+				<div class="col-md-6">
 
 			</div><!-- row -->
 
@@ -261,12 +225,10 @@
 
 			<section class="lnkbx">
 
-				<h2>Contributors</h2>
+				<h2 style="margin-top: 25px !important;">Contributors</h2>
 
 				<ul>
 				<li><a href="http://www.canada.ca/en/employment-social-development.html">Employment and Social Development Canada</a></li>
-				<li><a href="http://www.cmhc-schl.gc.ca/en/index.cfm">Canada Mortgage and Housing Coporation</a></li>
-				<li><a href="http://www.canada.ca/en/revenue-agency.html">Canada Revenue Agency</a></li>
 				</ul>
 
 			</section>
@@ -277,7 +239,7 @@
 
 	</div><!-- row -->
 
-	<div class="row pagedetails mrgn-tp-xl">
+	<div class="row pagedetails mrgn-tp-md">
 
 		<details class="brdr-0 col-sm-6 col-lg-4 mrgn-tp-sm">
 		<summary class="btn btn-default text-center">Report a problem or mistake on this page</summary>
