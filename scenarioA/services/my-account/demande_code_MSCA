@@ -1,0 +1,599 @@
+<!doctype html>
+
+<!--[if lt IE 9]>
+<html class="no-js lt-ie9" dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+<head prefix="og: http://ogp.me/ns#">
+    
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title>Demande d’un code d’accès personnel - Canada.ca</title>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+
+
+	<link rel="schema.dcterms" href="http://purl.org/dc/terms/"/>
+	
+		<meta name="description" content="My Service Canada Account"/>
+	
+	
+		<meta name="keywords" content="Demande d’un code d’accès personnel"/>
+	
+	
+		<meta name="author" content="Emploi et Développement social Canada"/>
+	
+	
+		<meta name="dcterms.title" content="Demande d’un code d’accès personnel"/>
+	
+	
+		<meta name="dcterms.description" content="My Service Canada Account"/>
+	
+	
+		<meta name="dcterms.creator" content="Emploi et Développement social Canada"/>
+	
+	
+	
+		<meta name="dcterms.language" title="ISO639-2/T" content="fra"/>
+	
+	
+		<meta name="dcterms.subject" title="gccore" content="PR Liens et fonctions;Programme"/>
+	
+	
+		<meta name="dcterms.issued" title="W3CDTF" content="2015-11-24"/>
+	
+	
+		<meta name="dcterms.modified" title="W3CDTF" content="2019-07-12"/>
+	
+	
+	
+		<meta name="dcterms.spatial" content="Canada"/>
+	
+	
+		<meta name="dcterms.type" content="description de programme"/>
+	
+	
+	
+	
+	
+		<meta name="dcterms.source" content="aem"/>
+	
+	
+		<meta name="dcterms.identifier" content="Emploi_et_Développement_social_Canada"/>
+	
+	
+	
+	
+    
+    
+
+
+	<meta prefix="fb: https://www.facebook.com/2008/fbml" property="fb:pages" content="378967748836213, 160339344047502, 184605778338568, 237796269600506, 10860597051, 14498271095, 209857686718, 160504807323251, 111156792247197, 113429762015861, 502566449790031, 312292485564363, 1471831713076413, 22724568071, 17294463927, 1442463402719857, 247990812241506, 730097607131117, 1142481292546228, 1765602380419601, 131514060764735, 307780276294187, 427238637642566, 525934210910141, 1016214671785090, 192657607776229, 586856208161152, 1146080748799944, 408143085978521, 490290084411688, 163828286987751, 565688503775086, 460123390028, 318424514044, 632493333805962, 370233926766473, 173004244677, 1562729973959056, 362400293941960, 769857139754987, 167891083224996, 466882737009651, 126404198009505, 135409166525475, 664638680273646, 169011506491295, 217171551640146, 182842831756930, 1464645710444681, 218822426028, 218740415905, 123326971154939, 125058490980757, 1062292210514762, 1768389106741505, 310939332270090, 285960408117397, 985916134909087, 655533774808209, 1522633664630497, 686814348097821, 230798677012118, 320520588000085, 103201203106202, 273375356172196, 61263506236, 353102841161, 1061339807224729, 1090791104267764, 395867780593657, 1597876400459657, 388427768185631, 937815283021844, 207409132619743, 1952090675003143, 206529629372368, 218566908564369, 175257766291975, 118472908172897, 767088219985590, 478573952173735, 465264530180856, 317418191615817, 428040827230778, 222493134493922, 196833853688656, 194633827256676, 252002641498535, 398018420213195, 265626156847421, 202442683196210, 384350631577399, 385499078129720, 178433945604162, 398240836869162, 326182960762584, 354672164565195, 375081249171867, 333050716732105, 118996871563050, 240349086055056, 119579301504003, 185184131584797, 333647780005544, 306255172770146, 369589566399283, 117461228379000, 349774478396157, 201995959908210, 307017162692056, 145928592172074, 122656527842056">
+
+
+    
+
+
+	<script src="//assets.adobedtm.com/caacec67651710193d2331efef325107c23a0145/satelliteLib-78cf42deb149c9766cbaaa6151e252b9b67c0200.js"></script>
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/wet-boew.min.css"/>
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+
+<!--[if gte IE 9 | !IE ]><!-->
+<link href="/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon"/>
+<!--<![endif]-->
+
+<!--[if lt IE 9]>
+<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/ie8-wet-boew.min.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/etc/designs/canada/wet-boew/js/ie8-wet-boew.min.js"></script>
+<![endif]-->
+
+<noscript><link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/noscript.min.css"/></noscript>
+<script>dataLayer = []; dataLayer1 = [];</script>
+
+                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"368225",ustr:"",originlat:"0",clientrtt:"69",ghostip:"104.91.167.36",ipv6:false,pct:"10",clientip:"198.103.223.52",requestid:"1ba1990",region:"25496",protocol:"",blver:14,akM:"dscb",akN:"ae",akTT:"O",akTX:"1",akTI:"1ba1990",ai:"231651",ra:"false",pmgn:"canadaRUM",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
+                    </head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+
+
+
+
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        
+        <div class="global-header"><nav><ul id="wb-tphp">
+	<li class="wb-slc"><a class="wb-sl" href="#wb-cont">Passer au contenu principal</a></li>
+	<li class="wb-slc"><a class="wb-sl" href="#wb-info">Passer à « Au sujet du gouvernement »</a></li>
+	
+</ul></nav>
+
+<header>
+	<div id="wb-bnr" class="container">
+		
+		<section id="wb-lng" class="text-right">
+    <h2 class="wb-inv">Sélection de la langue</h2>
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="list-inline margin-bottom-none">
+                <li>
+                    <a lang="en" href="/en/employment-social-development/services/my-account/request-pac.html">
+                        
+                        English
+                    </a>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</section>
+		<div class="row">
+			<div class="brand col-xs-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+				<a href="/fr.html" property="url">
+                    <img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-fr.svg" alt="" property="logo">
+                    <span class="wb-inv" property="name"> Gouvernement du Canada</span>
+                </a>
+                <meta property="areaServed" typeof="Country" content="Canada"/>
+				<link property="logo" href="/etc/designs/canada/wet-boew/assets/wmms-blk.svg"/>
+			</div>
+			<section id="wb-srch" class="col-lg-8 text-right">
+				<h2>Recherche</h2>
+				
+<form action="/fr/sr/srb.html" method="get" name="cse-search-box" role="search" class="form-inline">
+<div class="form-group">
+<label for="wb-srch-q" class="wb-inv">Rechercher dans Canada.ca</label>
+<input name="cdn" value="canada" type="hidden"/>
+<input name="st" value="s" type="hidden"/>
+<input name="num" value="10" type="hidden"/>
+<input name="langs" value="fr" type="hidden"/>
+<input name="st1rt" value="1" type="hidden"/>
+<input name="s5bm3ts21rch" value="x" type="hidden"/>
+
+	<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Rechercher dans Canada.ca"/>
+    
+
+<input type="hidden" name="_charset_" value="UTF-8"/>
+
+<datalist id="wb-srch-q-ac">
+</datalist>
+</div>
+<div class="form-group submit">
+<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Recherche</span></button>
+</div>
+</form>
+
+			</section>
+		</div>
+	</div>
+
+	
+	<nav class="gcweb-v2 gcweb-menu" typeof="SiteNavigationElement"><div class="container">
+		<h2 class="wb-inv">Menu</h2>
+		<button type="button" aria-haspopup="true" aria-expanded="false">Menu<span class="wb-inv"> principal</span> <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+		<ul role="menu" aria-orientation="vertical" data-ajax-replace="/content/dam/canada/sitemenu/sitemenu-v2-fr.html">
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/jobs.html">Emplois et milieu de travail</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration et citoyenneté</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://voyage.gc.ca/">Voyage et tourisme</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/entreprises.html">Entreprises et industrie</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/benefits.html">Prestations</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/sante.html">Santé</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/impots.html">Impôts</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/environnement.html">Environnement et ressources naturelles</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/defense.html">Sécurité nationale et défense</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/culture.html">Culture, histoire et sport</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/police.html">Services de police, justice et urgences</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/transport.html">Transport et infrastructure</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="http://international.gc.ca/world-monde/index.aspx?lang=fra">Canada et le monde</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/finance.html">Argent et finances</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/fr/services/science.html">Science et innovation</a></li>
+		</ul>
+	</div></nav>
+	
+	
+	
+		<nav id="wb-bc" property="breadcrumb"><h2 class="wb-inv">Vous êtes ici :</h2><div class="container"><ol class="breadcrumb">
+<li><a href='/fr.html'>Accueil</a></li>
+<li><a href='/fr/emploi-developpement-social.html'>Emploi et Développement social Canada</a></li>
+<li><a href='/fr/emploi-developpement-social/services/mon-dossier.html'>Mon dossier Service Canada (MDSC) : Aperçu </a></li>
+</ol></div></nav>
+
+
+
+	
+	<div data-ajax-replace="/bin/canada/alert/messages.fr.html" class="original"></div>
+
+</header>
+</div>
+
+    
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <main property="mainContentOfPage" typeof="WebPageElement" class="container">
+        
+
+    <h1 property="name" id="wb-cont" dir="ltr">
+Demande d’un code d’accès personnel</h1>
+
+
+
+
+        <div><div class="mwsgeneric-base-html parbase section">
+
+
+    
+    <div>
+
+<!--start of Alert row-->
+<!--<section class="alert alert-warning">
+        <h2 class="h3">Attention :</h2>
+        <p>Veuillez prendre note que ce service en ligne ne sera pas disponible entre 05h00 et 06h00 vendredi le 5 juillet 2019 (heure de l'Est) afin de permettre la maintenance de notre système. Nous regrettons tout inconvénient.</p>
+      </section>-->
+<!--end of Alert row-->
+  <p>Ce service vous permet de  demander un code d'accès personnel. Dès que vous en aurez fait la demande, nous  vous enverrons votre code par la poste à l'adresse qui figure dans nos  dossiers. </p>
+  <p>Vous avez besoin de votre code la  première fois que vous vous inscrivez à <a href="/fr/emploi-developpement-social/services/mon-dossier.html">Mon  dossier Service Canada</a>. Le code d'accès personnel est  essentiel pour accéder à des services en direct sécurisés – veuillez le garder  dans un endroit sûr et ne pas le communiquer à qui que ce soit.</p>
+  
+  <section>
+    <h2>Pour obtenir un code d'accès  personnel, vous devez :</h2>
+    <ul>
+      <li>fournir  votre <a href="http://www.servicecanada.gc.ca/fra/sc/nas/index.shtml">numéro d'assurance sociale</a>, votre prénom, votre nom de famille,  votre date de naissance et le nom de  famille du parent à la naissance;</li>
+      <li>fournir  votre code postal si vous résidez au Canada ou votre pays de résidence si vous habitez  à l'étranger; et</li>
+      <li>vous  assurez que la fonction JavaScript est activée.</li>
+    </ul>
+    <div class="alert alert-warning">
+      <p> <strong>Avertissement sur la  sécurité :</strong> Si vous utilisez ce service à partir d'un ordinateur partagé dans un  lieu public (c.-à-d. guichet public ou bibliothèque), ne laissez pas l'ordinateur  sans surveillance lorsque vous accédez à ce service. Avant de quitter l'ordinateur,  assurez-vous de <strong>fermer complètement</strong> l'application, d'effacer  le contenu de la mémoire cache, puis de fermer le navigateur. Ces précautions feront en sorte que personne n'accédera  aux renseignements personnels que vous avez entrés.</p>
+    </div>
+    <section>
+      <h3>Exceptions:</h3>
+      <ul>
+        <li>Si un curateur, un tuteur ou un autre  représentant légal s'occupe de vos finances, cette personne n'est pas autorisée  à utiliser ce service en votre nom. Votre représentant peut effectuer des  transactions en votre nom par la poste, par téléphone ou en personne. </li>
+        <li>Si nous n'avons pas votre adresse dans  nos dossiers, vous ne serez pas autorisé à faire une demande de code d'accès  personnel en ligne. Une fois que vous avez mis à jour vos renseignements  personnels, vous pourrez faire la demande d'un code d'accès personnel en ligne.</li>
+        <li>Si nos dossiers indiquent que votre code d'accès personnel est  désactivé, vous ne serez pas autorisé à faire une nouvelle demande de code d'accès  personnel en ligne. Pour accéder à nos services en ligne, vous devez  communiquer avec nous pour obtenir un nouveau code d'accès personnel, par  téléphone ou en personne.</li>
+      </ul>
+    </section>
+  </section>
+  <section>
+    <h2>Énoncé de confidentialité</h2>
+    <p class="well well-sm">Vous voudrez probablement imprimer cette page qui contient des renseignements  importants pour vous en servir plus tard.</p>
+    <p>La protection et l'intégrité de  vos renseignements personnels sont importantes pour nous. On confirmera votre  identité en comparant les renseignements que vous avez soumis à la page d'ouverture  de session aux renseignements inscrits au Registre d'assurance sociale ainsi  que l'information que nous possédons dans nos dossiers du Régime de pensions du  Canada et de la Sécurité de la vieillesse. Les renseignements demandés sont  nécessaires pour que vous puissiez accéder à et utiliser le service demandé.</p>
+    <p>La collecte, l'utilisation et la  divulgation de renseignements personnels aux fins de ce service sont autorisées  et réglementées par la <a rel="external" href="http://laws-lois.justice.gc.ca/fra/lois/C-8/"> Loi sur le régime de pensions du Canada </a>, la <a rel="external" href="http://laws-lois.justice.gc.ca/fra/lois/O-9/"> Loi sur la sécurité  de la vieillesse </a>, et la <a rel="external" href="http://lois-laws.justice.gc.ca/fra/lois/E-5.6/index.html"> Loi sur l'assurance-emploi </a>. Vos renseignements peuvent être utilisés pour l'analyse des  politiques, la recherche et/ou les évaluations qui pourraient exigés que l'information  sous le contrôle d'Emploi et Développement social Canada et/ou Service Canada  soient liées. Dans certains cas restreints, la législation relative à la <a rel="external" href="http://lois-laws.justice.gc.ca/fra/lois/P-21/index.html"> Loi sur la protection  des renseignements personnels </a> autorise,  à des fins non identifiées dans le présent énoncé de confidentialité, la  divulgation sans votre consentement des renseignements personnels recueillis.</p>
+    <p>L'utilisation, la divulgation et  la collecte de vos renseignements personnels pour ces services sont décrits  dans les <a rel="external" href="http://www.infosource.gc.ca/emp/emp00_f.asp">Fichiers de renseignements personnels</a> : le Régime de pensions du  Canada DSC PPU 146, le Régime de pensions du  Canada DSC PPU 140, la Sécurité de la  vieillesse DSC PPU 116 et le Registre d'assurance  sociale DSC PPU 390.</p>
+    <p>Les renseignements personnels que  vous fournissez sont protégés en vertu des dispositions de la <a rel="external" href="http://lois-laws.justice.gc.ca/fra/lois/P-21/index.html"> Loi sur la protection des renseignements personnels </a> et des lois applicables à notre ministère. En vertu de la Loi sur la protection des  renseignements personnels, vous pouvez avoir accès à vos  renseignements personnels et demander des modifications à ceux-ci s'ils sont  inexacts. Les instructions pour exercer vos droits sont mentionnées dans les <a rel="external" href="http://www.infosource.gc.ca/index-fra.asp">publications d'Info Source</a>, dont  un exemplaire est disponible dans tous les Centres Service Canada.</p>
+    <p>Si vous avez des questions ou des  commentaires concernant l'administration de la Loi sur la protection des renseignements personnels au sein de notre ministère, veuillez contacter le Coordonnateur, Accès à l'information  et protection des renseignements personnels aux coordonnées suivantes :</p>
+    <p>Accès à l'information et  Protection des renseignements personnels<br>
+      140, promenade du Portage<br>
+      Portage IV, niveau 1, arrêt postal 112<br>
+    Gatineau QC  K1A 0J9</p>
+    <p>Tél. : 819-654-6981<br>
+      Télécopieur : 819-953-0659<br>
+    Courriel : <a href="mailto:NC-COMM-ATIP-AIPRP-GD@hrsdc-rhdcc.gc.ca">NC-COMM-ATIP-AIPRP-GD@hrsdc-rhdcc.gc.ca</a> </p>
+    <p>Pour obtenir de plus amples  renseignements au sujet des questions de protection des renseignements ou sur  la Loi sur la protection des  renseignements personnels en général, adressez-vous au <a href="http://www.priv.gc.ca/index_f.asp">Commissariat à la protection de la vie privée du Canada</a> ou téléphonez au 1-800-282-1376.</p>
+    <p>Pour plus d’information sur les prestations tels que sur l’assurance-emploi, le Régime de pensions du Canada et la Sécurité de la vieillesse, veuillez <a href="/fr/emploi-developpement-social/ministere/coordonnees.html">communiquer avec Emploi et Développement social Canada</a>.</p>
+    <ul class="list-unstyled list-inline">
+      <li> <a href="https://srv136.services.gc.ca/ecas-seca/rascl/Initialize.aspx?Lang=fra&amp;Idp=&amp;AppCode=PACR-DCAP" class="btn btn-primary">Continuer</a> </li>
+      <li> <a href="/fr/emploi-developpement-social/services/mon-dossier.html" class="btn btn-primary">Annuler</a> </li>
+    </ul>
+  </section>
+</div>
+<div class="ls-row-clr"></div>
+<div class="ls-row-clr"></div>
+<div class="ls-row-clr"></div>
+
+
+
+</div>
+
+</div>
+        <div class="pagedetails ">
+<div class="row">
+<div class="col-sm-6 col-md-5 col-lg-4">
+    <details class="brdr-0">
+        
+<summary class="btn btn-default text-center">Signaler un problème ou une erreur sur cette page</summary>
+<div class="clearfix"></div>
+<div class="well row">
+    <div><div class="gc-rprt-prblm">
+    <div class="gc-rprt-prblm-frm gc-rprt-prblm-tggl">			
+			<form id="gc-rprt-prblm-form" action="/gc/services/generateemail" method="post">
+            <input type="hidden" name="pageTitle" value="Demande d&rsquo;un code d&rsquo;acc&egrave;s personnel">
+            <input type="hidden" name="submissionPage" value="/content/canadasite/fr/emploi-developpement-social/services/mon-dossier/demande-code.html">
+            <input type="hidden" name="lang" value="fr">
+            <input type="hidden" name="pageOwner" value="gc:institutions/department-of-employment-and-social-development">
+            <input id="emailTemplate" name="emailTemplate" type="hidden" value="reportaproblem/rap"> 
+            <input name="subject" type="hidden" value="Report a problem or mistake on this page">
+            <fieldset>
+                <legend><span class="field-name">Veuillez sélectionner toutes les cases qui s'appliquent :</span></legend>
+                 <div class="checkbox">
+                    <label for="problem1"><input name="problem1" id="problem1" type="checkbox" value="Yes" data-reveal="#broken" data-gc-analytics-rap="A link, button or video is not working-Un lien, un bouton ou une vidéo ne fonctionne pas">Un lien, un bouton ou une vidéo ne fonctionne pas</label>
+                    <input name="problem1" type="hidden" value="No">
+                </div>
+                <div class="checkbox">
+                    <label for="problem2"><input name="problem2" id="problem2" type="checkbox" value="Yes" data-reveal="#spelling" data-gc-analytics-rap="It has a spelling mistake-Il y a une erreur d'orthographe ou de grammaire">Il y a une erreur d'orthographe ou de grammaire</label>
+                    <input name="problem2" type="hidden" value="No">
+                </div>
+                <div class="checkbox">
+                    <label for="problem3"><input name="problem3" id="problem3" type="checkbox" value="Yes" data-reveal="#wrong" data-gc-analytics-rap="Information is missing-Les renseignements sont incomplets">Les renseignements sont incomplets</label>
+                    <input name="problem3" type="hidden" value="No">
+               </div>
+                <div class="checkbox">
+                    <label for="problem4"><input name="problem4" id="problem4" type="checkbox" value="Yes" data-reveal="#outdated" data-gc-analytics-rap=" Information is outdated or wrong-L'information n'est plus à jour ou est erronée">L'information n'est plus à jour ou est erronée</label>
+                    <input name="problem4" type="hidden" value="No">
+                </div>
+                <div class="checkbox">
+                    <label for="problem5"><input name="problem5" id="problem5" type="checkbox" value="Yes" data-reveal="#find" data-gc-analytics-rap=" Login error when trying to access an account (e.g. My Service Canada Account)-Message d'erreur à l'ouverture de la session lorsque je tente d'accéder à un compte (ex. Mon dossier Service Canada)">Message d'erreur à l'ouverture de la session lorsque je tente d'accéder à un compte (ex. Mon dossier Service Canada)</label>
+                    <input name="problem5" type="hidden" value="No">
+                </div>
+   					<ul>
+					<li class="checkbox">
+                        <label for="problem6a"><input name="problem6" id="problem6a" type="checkbox" value="Yes" data-reveal="#find" data-gc-analytics-rap="GC Key access-Accès CléGC">Accès CléGC</label>
+                        <input name="problem6" type="hidden" value="No">
+                     </li>
+					<li class="checkbox">
+                        <label for="problem7"><input name="problem7" id="problem7" type="checkbox" value="Yes" data-reveal="#find" data-gc-analytics-rap="SecureKey Concierge (Banking Credential) access-Accès SecureKey Service de Concierge (justificatifs d'identité bancaires)">Accès SecureKey Service de Concierge (justificatifs d'identité bancaires)</label>
+                        <input name="problem7" type="hidden" value="No">
+                     </li>
+					<li class="checkbox">
+                        <label for="problem8"><input name="problem8" id="problem8" type="checkbox" value="Yes" data-reveal="#find" data-gc-analytics-rap="Personal Access Code (PAC) problems or EI Access Code (AC) problems-Problème avec le Code d'accès personnel (CAP) ou avec le Code d'accès (CA) de l'assurance emploi">Problème avec le Code d'accès personnel (CAP) ou avec le Code d'accès (CA) de l'assurance emploi</label>
+                        <input name="problem8" type="hidden" value="No">
+                     </li>	
+					<li class="checkbox">
+                        <label for="problem9"><input name="problem9" id="problem9" type="checkbox" value="Yes" data-reveal="#find" data-gc-analytics-rap="Social Insurance Number (SIN) validation problems-Problème lié à la validation du numéro d'assurance sociale (NAS)">Problème lié à la validation du numéro d'assurance sociale (NAS)</label>
+                        <input name="problem9" type="hidden" value="No">
+                     </li>								
+					<li class="checkbox">
+                        <label for="problem10"><input name="problem10" id="problem10" type="checkbox" value="Yes" data-reveal="#find" data-gc-analytics-rap="Other login error not in this list-Autre erreur lors de l'ouverture de session qui ne figure pas sur cette liste">Autre erreur lors de l'ouverture de session qui ne figure pas sur cette liste</label>
+                        <input name="problem10" type="hidden" value="No">
+                     </li>		 
+                     </ul>
+				    <div class="checkbox">
+                    <label for="problem11"><input name="problem11" id="problem11" type="checkbox" value="Yes" data-reveal="#find" data-gc-analytics-rap="I can't find what I'm looking for-Je n'arrive pas à trouver ce que je cherche">Je n'arrive pas à trouver ce que je cherche</label>
+                    <input name="problem11" type="hidden" value="No">
+                </div>
+             		<div class="checkbox">
+                    <label for="problem12"><input name="problem12" id="problem12" type="checkbox" value="Yes" data-reveal="#find" data-gc-analytics-rap="Other issue not in this list-Autre problème qui ne figure pas sur cette liste">Autre problème qui ne figure pas sur cette liste</label>
+                    <input name="problem12" type="hidden" value="No">
+                </div>                 
+                   </fieldset>
+            <button data-wb5-click="postback@#gc-rprt-prblm-form" type="submit" class="btn btn-primary wb-toggle" data-toggle='{"stateOff": "hide", "stateOn": "show", "selector": ".gc-rprt-prblm-tggl"}'>Soumettre</button>
+
+        </form>
+    </div>
+    <div class="gc-rprt-prblm-thnk gc-rprt-prblm-tggl hide">
+        <h3>Merci de votre aide!</h3>
+<p>Vous ne recevrez pas de réponse. Pour toute question, <a href="https://www.canada.ca/fr/contact/index.html">contactez-nous</a>.</p>
+    </div>
+</div></div>
+</div>
+
+    </details>
+</div>
+       	<div class="col-sm-4 col-md-3 col-sm-offset-2 col-md-offset-4 col-lg-offset-5">
+        <div class="wb-share" data-wb-share='{&#34;lnkClass&#34;: &#34;btn btn-default btn-block&#34;}'></div>
+        </div>
+</div>
+        <dl id="wb-dtmd">
+    <dt>Date de modification :</dt>
+    <dd><time property="dateModified">2019-07-12</time></dd>
+</dl>
+</div>
+    </main>
+
+
+
+
+
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+
+</div>
+
+    
+
+
+
+
+
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+        
+        
+        
+        <div class="global-footer">
+    <footer id="wb-info">
+        <div class="landscape">
+        <nav class="container wb-navcurr">
+            <h2 class="wb-inv">Au sujet du gouvernement</h2>
+            <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+                
+                     
+                         <li><a href="/fr/contact.html">Contactez-nous</a></li>
+                     
+                
+                
+                    
+                        <li><a href="/fr/gouvernement/min.html">Ministères et organismes</a></li>
+                    
+                
+                
+                    
+                        <li><a href="/fr/gouvernement/fonctionpublique.html">Fonction publique et force militaire</a></li>
+                    
+                
+                
+                    
+                        <li><a href="/fr/nouvelles.html">Nouvelles</a></li>
+                    
+                
+                
+                    
+                        <li><a href="/fr/gouvernement/systeme/lois.html">Traités, lois et règlements</a></li>
+                    
+                
+                
+                    
+                        <li><a href="/fr/transparence/rapports.html">Rapports à l&#39;échelle du gouvernement</a></li>
+                    
+                
+                
+                    
+                        <li><a href="https://pm.gc.ca/fr">Premier ministre</a></li>
+                    
+                
+                
+                    
+                        <li><a href="/fr/gouvernement/systeme.html">À propos du gouvernement</a></li>
+                    
+                
+                
+                    
+                        <li><a href="http://ouvert.canada.ca/">Gouvernement ouvert</a></li>
+                    
+                
+            </ul>
+        </nav>
+        </div>
+        <div class="brand">
+            <div class="container">
+                <div class="row">
+                    <nav class="col-md-10 ftr-urlt-lnk">
+                        <h2 class="wb-inv">À propos de ce site</h2>
+                        <ul>
+                            
+                                
+                                    <li><a href="/fr/sociaux.html">Médias sociaux</a></li>
+                                
+                            
+                            
+                                
+                                    <li><a href="/fr/mobile.html">Applications mobiles</a></li>
+                                
+                            
+                            
+                                
+                                    <li><a href="/fr/gouvernement/a-propos.html">À propos de Canada.ca</a></li>
+                                
+                            
+                            
+                                
+                                    <li><a href="/fr/transparence/avis.html">Avis</a></li>
+                                
+                            
+                            
+                                
+                                    <li><a href="/fr/transparence/confidentialite.html">Confidentialité</a></li>
+                                
+                            
+                            
+                                
+                            
+                        </ul>
+                    </nav>
+                    <div class="col-xs-6 visible-sm visible-xs tofpg">
+                        <a href="#wb-cont">Haut de la page <span class="glyphicon glyphicon-chevron-up"></span></a>
+                    </div>
+                    <div class="col-xs-6 col-md-2 text-right">
+                        <img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg" alt="Symbole du gouvernement du Canada"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+    
+
+</div>
+
+    
+
+
+
+
+
+
+
+    <script type="text/javascript">_satellite.pageBottom();</script>
+
+
+
+
+
+
+
+
+    
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/utils.min.js"></script>
+<script type="text/javascript" src="/etc/designs/canada/clientlib-publish.min.js"></script>
+
+
+
+
+<!--[if gte IE 9 | !IE ]><!-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+<!--<![endif]-->
+
+<!--[if lt IE 9]>
+<script src="/etc/designs/canada/wet-boew/js/ie8-wet-boew2.min.js"></script>
+<![endif]-->
+
+<script src="/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+</body>
+</html>
