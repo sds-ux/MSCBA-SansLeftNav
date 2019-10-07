@@ -188,7 +188,7 @@ Government of Canada					</span>
 				<ol class="breadcrumb">
 						<li><a href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/view-organizations.action">Relevé d&#39;emploi</a></li>
 						<li>
-								The Fun Ideas Company inc. (0001) (ORG‑000‑000‑010‑517)
+								Technologie 101 inc. (ORG-185-584-321-165)
 						</li>
 				</ol>
 			</div>
@@ -206,7 +206,7 @@ Government of Canada					</span>
 						menuPath: "https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/pagenav-menu.action?orgAccessId=92444F1F5FF31AEA",
 						appSettings: [{href: "https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/clientaccounts/update-client-account.action"}],
 						signOut: [{ href: "https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/logout.action" }],
-							breadcrumbs: [{ href: "https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/view-organizations.action", title: 'Relevé d\&#39;emploi' },{ title: "The Fun Ideas Company inc. (0001) (ORG‑000‑000‑010‑517)" }],
+							breadcrumbs: [{ href: "https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/view-organizations.action", title: 'Relevé d\&#39;emploi' },{ title: "Technologie 101 inc. (ORG-185-584-321-165)" }],
 						lngLinks: [{
 							lang: "en",
 							href: "https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/view-addresses.action?request_locale=eng&amp;orgAccessId=92444F1F5FF31AEA&amp;cacheKey=ZXBQYRTP6LWSASEWJCC5ARLETIQ7FSI9",
@@ -218,7 +218,7 @@ Government of Canada					</span>
 			<div class="container">
 				<div class="row">
 						<main role="main" property="mainContentOfPage" class="col-md-9 col-md-push-3">
-							<h1 property="name" id="wb-cont">The Fun Ideas Company inc. (0001) (ORG‑000‑000‑010‑517)</h1>
+							<h1 property="name" id="wb-cont">Technologie 101 inc. (ORG-185-584-321-165)</h1>
 
 
 	<h2>Gestion des adresses</h2>
@@ -238,160 +238,19 @@ Government of Canada					</span>
 				</tr>
 			</thead>
 			<tbody>
-				<tr>
-					<td class="resize text-center" style="vertical-align: middle">
-												               
-					</td>
-						
-					<td class="resize">350 River Road</td>
-					<td class="resize"></td>
-					<td class="resize">Vanier</td>
-					<td class="resize">ON</td>
-					<td class="resize">K1A 0L1</td>
-					<td class="resize text-center">
-	
-									
-	
-<a
- href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/main-address.action?orgAccessId=92444F1F5FF31AEA&amp;addressId=BE6BB3DEE517EFEF" class="btn btn-default btn-xs center-block mrgn-tp-sm mrgn-bttm-sm" title="Définir comme adresse principale 350 River Road">Définir comme adresse principale</a>												
-						
-	
-<a
- href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/update-address.action?orgAccessId=92444F1F5FF31AEA&amp;addressId=BE6BB3DEE517EFEF" class="btn btn-default btn-xs center-block mrgn-tp-sm mrgn-bttm-sm" title="Modifier l&#39;adresse 350 River Road ">Modifier</a>						
-								
-							<a href="#centred-popup-modal-BE6BB3DEE517EFEF" onclick="openModal(this)" title="Supprimer l&#39;adresse 350 River Road"
-									class="btn btn-danger btn-xs wb-lbx lbx-modal" aria-controls="centred-popup-modal-BE6BB3DEE517EFEF">
-Supprimer							</a>							
 
-							<section id="centred-popup-modal-BE6BB3DEE517EFEF" class="mfp-hide modal-dialog modal-content overlay-def">
-									<header class="modal-header"><h2 class="modal-title">Supprimer une adresse</h2></header>
-									<div class="modal-body">Êtes-vous certain de vouloir supprimer cette adresse de l'organisation?</div>
-									<footer class="modal-footer">
-										<a href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/delete-address.action?orgAccessId=92444F1F5FF31AEA&amp;addressId=BE6BB3DEE517EFEF" class="btn btn-danger">Supprimer</a>
-										<button class="btn btn-default popup-modal-dismiss" type="button">Annuler</button>
-									</footer>
-								</section>
 
-						</td>
-					</tr>
-				<tr>
-					<td class="resize text-center" style="vertical-align: middle">
-												               
-					</td>
 						
-					<td class="resize">54 Portage</td>
-					<td class="resize"></td>
-					<td class="resize">Ottawa</td>
-					<td class="resize">ON</td>
-					<td class="resize">K1A 0J9</td>
-					<td class="resize text-center">
-	
-									
-	
-<a
- href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/main-address.action?orgAccessId=92444F1F5FF31AEA&amp;addressId=02D07AC538327D24" class="btn btn-default btn-xs center-block mrgn-tp-sm mrgn-bttm-sm" title="Définir comme adresse principale 54 Portage">Définir comme adresse principale</a>												
-						
-	
-<a
- href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/update-address.action?orgAccessId=92444F1F5FF31AEA&amp;addressId=02D07AC538327D24" class="btn btn-default btn-xs center-block mrgn-tp-sm mrgn-bttm-sm" title="Modifier l&#39;adresse 54 Portage ">Modifier</a>						
-								
-							<a href="#centred-popup-modal-02D07AC538327D24" onclick="openModal(this)" title="Supprimer l&#39;adresse 54 Portage"
-									class="btn btn-danger btn-xs wb-lbx lbx-modal" aria-controls="centred-popup-modal-02D07AC538327D24">
-Supprimer							</a>							
-
-							<section id="centred-popup-modal-02D07AC538327D24" class="mfp-hide modal-dialog modal-content overlay-def">
-									<header class="modal-header"><h2 class="modal-title">Supprimer une adresse</h2></header>
-									<div class="modal-body">Êtes-vous certain de vouloir supprimer cette adresse de l'organisation?</div>
-									<footer class="modal-footer">
-										<a href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/delete-address.action?orgAccessId=92444F1F5FF31AEA&amp;addressId=02D07AC538327D24" class="btn btn-danger">Supprimer</a>
-										<button class="btn btn-default popup-modal-dismiss" type="button">Annuler</button>
-									</footer>
-								</section>
-
-						</td>
-					</tr>
-				<tr>
-					<td class="resize text-center" style="vertical-align: middle">
-												               
-					</td>
-						
-					<td class="resize">737 Victoria Street </td>
-					<td class="resize"></td>
-					<td class="resize">Ottawa</td>
-					<td class="resize">ON</td>
-					<td class="resize">K1T 3M8</td>
-					<td class="resize text-center">
-	
-									
-	
-<a
- href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/main-address.action?orgAccessId=92444F1F5FF31AEA&amp;addressId=3038BD81BDC443EF" class="btn btn-default btn-xs center-block mrgn-tp-sm mrgn-bttm-sm" title="Définir comme adresse principale 737 Victoria Street ">Définir comme adresse principale</a>												
-						
-	
-<a
- href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/update-address.action?orgAccessId=92444F1F5FF31AEA&amp;addressId=3038BD81BDC443EF" class="btn btn-default btn-xs center-block mrgn-tp-sm mrgn-bttm-sm" title="Modifier l&#39;adresse 737 Victoria Street  ">Modifier</a>						
-								
-							<a href="#centred-popup-modal-3038BD81BDC443EF" onclick="openModal(this)" title="Supprimer l&#39;adresse 737 Victoria Street "
-									class="btn btn-danger btn-xs wb-lbx lbx-modal" aria-controls="centred-popup-modal-3038BD81BDC443EF">
-Supprimer							</a>							
-
-							<section id="centred-popup-modal-3038BD81BDC443EF" class="mfp-hide modal-dialog modal-content overlay-def">
-									<header class="modal-header"><h2 class="modal-title">Supprimer une adresse</h2></header>
-									<div class="modal-body">Êtes-vous certain de vouloir supprimer cette adresse de l'organisation?</div>
-									<footer class="modal-footer">
-										<a href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/delete-address.action?orgAccessId=92444F1F5FF31AEA&amp;addressId=3038BD81BDC443EF" class="btn btn-danger">Supprimer</a>
-										<button class="btn btn-default popup-modal-dismiss" type="button">Annuler</button>
-									</footer>
-								</section>
-
-						</td>
-					</tr>
-				<tr>
-					<td class="resize text-center" style="vertical-align: middle">
-												               
-					</td>
-						
-					<td class="resize">123 Testing Road</td>
-					<td class="resize"></td>
-					<td class="resize">Gatineau</td>
-					<td class="resize">QC</td>
-					<td class="resize">K1A 0J9</td>
-					<td class="resize text-center">
-	
-									
-	
-<a
- href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/main-address.action?orgAccessId=92444F1F5FF31AEA&amp;addressId=9B1DD80CBE1E3502" class="btn btn-default btn-xs center-block mrgn-tp-sm mrgn-bttm-sm" title="Définir comme adresse principale 123 Testing Road">Définir comme adresse principale</a>												
-						
-	
-<a
- href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/update-address.action?orgAccessId=92444F1F5FF31AEA&amp;addressId=9B1DD80CBE1E3502" class="btn btn-default btn-xs center-block mrgn-tp-sm mrgn-bttm-sm" title="Modifier l&#39;adresse 123 Testing Road ">Modifier</a>						
-								
-							<a href="#centred-popup-modal-9B1DD80CBE1E3502" onclick="openModal(this)" title="Supprimer l&#39;adresse 123 Testing Road"
-									class="btn btn-danger btn-xs wb-lbx lbx-modal" aria-controls="centred-popup-modal-9B1DD80CBE1E3502">
-Supprimer							</a>							
-
-							<section id="centred-popup-modal-9B1DD80CBE1E3502" class="mfp-hide modal-dialog modal-content overlay-def">
-									<header class="modal-header"><h2 class="modal-title">Supprimer une adresse</h2></header>
-									<div class="modal-body">Êtes-vous certain de vouloir supprimer cette adresse de l'organisation?</div>
-									<footer class="modal-footer">
-										<a href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/addresses/delete-address.action?orgAccessId=92444F1F5FF31AEA&amp;addressId=9B1DD80CBE1E3502" class="btn btn-danger">Supprimer</a>
-										<button class="btn btn-default popup-modal-dismiss" type="button">Annuler</button>
-									</footer>
-								</section>
-
-						</td>
-					</tr>
 				<tr>
 					<td class="resize text-center" style="vertical-align: middle">
 						<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>						               
 					</td>
 						
-					<td class="resize">250 Bloor Street East</td>
-					<td class="resize">Suite 1600</td>
-					<td class="resize">Toronto</td>
+					<td class="resize">3021 Slater Street</td>
+					<td class="resize">Suite 102</td>
+					<td class="resize">Ottawa</td>
 					<td class="resize">ON</td>
-					<td class="resize">M4W 1E6</td>
+					<td class="resize">K4D 3H7</td>
 					<td class="resize text-center">
 	
 												
@@ -417,13 +276,13 @@ Pour de plus amples renseignements, veuillez consulter notre			<a href="https://
 					<nav id="wb-sec" class="wb-sec col-md-3 col-md-pull-9" typeof="SiteNavigationElement" role="navigation">
 <h2 id="wb-sec-h" class="wb-inv">Section menu</h2>
 <section class="list-group menu list-unstyled">
-						<h3><a href="#">test test</a></h3>
+						<h3><a href="#">Pat Smith</a></h3>
 				<ul class="list-group menu list-unstyled">
 						<li><a href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/clientaccounts/update-client-account.action" class="list-group-item">Mon Information</a></li>
 						<li><a href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/view-organization-instructions.action" class="list-group-item">Inscrire une nouvelle organisation</a></li>
 						<li><a href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/primaryofficers/view-primary-officer-instructions.action" class="list-group-item">Remplacez/devenez un agent principal</a></li>
 				</ul>
-				<h3><a href="#">The Fun Ideas Company inc. (0001)</a></h3>
+				<h3><a href="#">Technologie 101 inc.</a></h3>
 				<ul class="list-group menu list-unstyled">
 						<li><a href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/update-organization.action?orgAccessId=92444F1F5FF31AEA" class="list-group-item">Modifier le profil de l&#39;organisation</a></li>
 						<li><a href="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/update-organization-role.action?orgAccessId=92444F1F5FF31AEA" class="list-group-item">Mon rôle</a></li>
@@ -438,7 +297,7 @@ Pour de plus amples renseignements, veuillez consulter notre			<a href="https://
 							document.getElementById("wb-sec").innerHTML = wet.builder.secmenu({
 								sections: [
 										{
-											sectionName: "test test",
+											sectionName: "Pat Smith",
 											menuLinks: [
 												{
 													href: "https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/clientaccounts/update-client-account.action",
@@ -455,7 +314,7 @@ Pour de plus amples renseignements, veuillez consulter notre			<a href="https://
 											]
 										},
 										{
-											sectionName: "The Fun Ideas Company inc. (0001)",
+											sectionName: "Technologie 101 inc.",
 											menuLinks: [
 												{
 													href: "https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/update-organization.action?orgAccessId=92444F1F5FF31AEA",
