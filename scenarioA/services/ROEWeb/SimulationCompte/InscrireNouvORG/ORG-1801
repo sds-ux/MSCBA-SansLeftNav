@@ -1,0 +1,572 @@
+
+
+
+
+	<!DOCTYPE html>
+	<!--[if lt IE 9]><html class="no-js lt-ie9" lang="fr" dir="ltr"><![endif]-->
+	<!--[if gt IE 8]><!--><html class="no-js" lang="fr" dir="ltr"><!--<![endif]-->
+		<head>
+			<meta charset="utf-8"/>
+			<meta content="width=device-width,initial-scale=1" name="viewport"/>
+
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+     wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+
+				<title>Relevé d&#39;emploi - [Entente en ligne]</title>
+
+			<script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/cdts/compiled/soyutils.js"></script>
+			<script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/cdts/compiled/wet-fr.js"></script>
+
+			<link href="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/StaticContent/theme-mscba-mdesc/css/mscba.css" rel="stylesheet"/>
+
+			<noscript>
+				<!--[if gte IE 9 | !IE ]><!-->
+				<link href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/assets/favicon.ico" rel="icon" type="image/x-icon"/>
+				<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/css/theme.min.css"/>
+				<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/cdts/cdtsfixes.css"/>
+				<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/cdts/cdtsapps.css"/>
+				<!--<![endif]-->
+
+				<!--[if lt IE 9]>
+				<link href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/assets/favicon.ico" rel="shortcut icon"/>
+				<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/css/ie8-theme.min.css"/>
+				<![endif]-->
+
+				<!--[if lte IE 9]><![endif]-->
+				<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/css/noscript.min.css"/>
+				<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/cdts/cdtsnoscript.css"/>
+
+<!--[if gte IE 9 | !IE ]><!-->
+<link href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/css/theme.min.css">
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/cdts/cdtsfixes.css">
+<!-- Are you using the application templates? If so add the following CSS file -->
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/cdts/cdtsapps.css">
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<link href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/assets/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/css/ie8-theme.min.css" />
+<![endif]-->
+<!--[if lte IE 9]><![endif]-->
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/css/noscript.min.css" />
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/cdts/cdtsnoscript.css" />			</noscript>
+
+			<script type="text/javascript">document.write(wet.builder.refTop({ cdnEnv: "AKAMAI", isApplication: true }))</script>
+			<style>.modal-footer { background-color: #FFF }</style>
+			
+		</head>
+
+		<body vocab="http://schema.org/" typeof="WebPage">
+			<div id="def-top">
+					<ul id="wb-tphp">
+						<li class="wb-slc"><a class="wb-sl" href="#wb-cont">Passer au contenu principal</a></li>
+						<li class="wb-slc visible-sm visible-md visible-lg"><a class="wb-sl" href="#wb-info">Passer à «&nbsp;À propos de cette application&nbsp;»</a></li>
+						<li class="wb-slc visible-md visible-lg"><a class="wb-sl" href="#wb-sec">Passer au menu de la section</a></li>
+					</ul>
+<header role="banner">
+	<div id="wb-bnr" class="container">
+		<div class="row">
+			<div class="brand col-xs-9 col-sm-8 col-md-6">
+								<object type="image/svg+xml" tabindex="-1" data="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/assets/sig-blk-fr.svg"></object>
+				<span class="wb-inv">
+					<span>
+Gouvernement du Canada					</span>
+					<span>/</span>
+					<span lang="en">
+Government of Canada					</span>
+				</span>
+			</div>
+			<section id="wb-lng" class="text-right col-xs-3 col-sm-4 col-md-6">
+				<h2 class="wb-inv">Sélection de la langue</h2>
+				<ul class="list-inline margin-bottom-none">
+					<li><a lang="fr" href="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/legalagreements/view-legal-agreement.action?request_locale=eng&amp;orgAccessId=16E7C2545552E458&amp;cacheKey=EPUZW0KYR6EBJ7XQSHEJZUSUVCK4FF0V">English</a></li>
+				</ul>
+			</section>
+		</div>
+	</div>
+	<div class="app-bar">
+		<div class="container">
+			<div class="row">
+				<section class="col-sm-7">
+						<h2 class="wb-inv">Relevé d&#39;emploi</h2>
+						<a class="app-name" href="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/view-organizations.action">Relevé d&#39;emploi</a>
+				</section>
+					<nav class="col-sm-5 hidden-xs hidden-print" role="navigation">
+						<h2 class="wb-inv">Menu des paramètres du compte</h2>
+						<ul class="app-list-account list-unstyled">
+							<li><a href="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/clientaccounts/update-client-account.action" class="btn"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Paramètres du compte</a></li>
+							<li><a href="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/logout.action" class="btn"><span class="glyphicon glyphicon-off" aria-hidden="true"></span>  Fermer la session</a></li>
+						</ul>
+					</nav>
+			</div>
+		</div>
+	</div>
+	<div class="app-bar-mb container visible-xs-block hidden-print">
+		<nav role="navigation">
+			<h2 class="wb-inv">Recherche et menu</h2>
+			<ul class="app-list-main list-unstyled">
+				<li class="wb-mb-links" id="wb-glb-mn"><a href="#mb-pnl" aria-controls="mb-pnl" class="btn overlay-lnk" role="button">Menu</a><h2>Menu</h2></li>
+			</ul>
+			<div id="mb-pnl"></div>
+		</nav>
+	</div>
+		<nav role="navigation" id="wb-sm" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+	<div class="pnl-strt container nvbar" lang="fr">
+		<h2 class="wb-inv">Menu des sujets</h2>
+		<div class="row">
+			<ul class="list-inline menu" role="menubar">
+				<li>
+							<a
+ href="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/view-organizations.action">Mes organisations</a>
+				</li>
+					<li>
+						<a href="#section1" class="item">Relevé d&#39;emploi</a>
+						
+						
+
+							<ul class="sm list-unstyled" id="section1" role="menu">
+										<li>
+											<a href="https://srv2140-s.services.gc.qat/ROE-RE/ROEWeb-REWeb/pro/MainMenu.aspx?org_id=-32330" target="_self">
+												Démo RE Web
+											</a>
+										</li>
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+							</ul>
+					</li>
+				<li>
+					<a href="#section2" class="item">Aide et soutien</a>
+					<ul class="sm list-unstyled" id="section2" role="menu">
+						
+								<li>
+									<a href="https://www.canada.ca/fr/emploi-developpement-social/programmes/assurance-emploi/ae-liste/rapports/re-guide.html" target="_blank">
+										Marche à suivre pour remplir le relevé d&#39;emploi
+									</a>
+								</li>
+								<li>
+									<a href="https://www.canada.ca/fr/emploi-developpement-social/programmes/assurance-emploi/ae-liste/assurance-emploi-re/re-web.html" target="_blank">
+										Guides d&#39;utilisateur RE Web
+									</a>
+								</li>
+								<li>
+									<a href="https://www.canada.ca/fr/emploi-developpement-social/ministere/coordonnees.html" target="_blank">
+										Centre de services aux employeurs
+									</a>
+								</li>
+								<li>
+									<a href="https://www.canada.ca/fr/emploi-developpement-social/programmes/assurance-emploi/ae-liste/rapports/re-web-guide-admin.html" target="_blank">
+										Aide et soutien – Page principale
+									</a>
+								</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>		</nav>
+	<nav role="navigation" id="wb-bc" property="breadcrumb">
+		<h2>Vous êtes ici :</h2>
+		<div class="container">
+			<div class="row">
+				<ol class="breadcrumb">
+						<li><a href="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/view-organizations.action">Relevé d&#39;emploi</a></li>
+						<li>
+								Technologie 101 Inc. (ORG‑185-584-321-165)
+						</li>
+				</ol>
+			</div>
+		</div>
+	</nav> 
+</header>			</div>
+			<script type="text/javascript">
+				document.getElementById("def-top").outerHTML = wet.builder.appTop({
+					cdnEnv: "AKAMAI",
+						appName: [{
+							text: "Relevé d&#39;emploi",
+							href: "https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/view-organizations.action"
+						}],
+						showPreContent: false,
+						menuPath: "https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/legalagreements/pagenav-menu.action?orgAccessId=16E7C2545552E458",
+						appSettings: [{href: "https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/clientaccounts/update-client-account.action"}],
+						signOut: [{ href: "https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/logout.action" }],
+							breadcrumbs: [{ href: "https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/view-organizations.action", title: 'Relevé d\&#39;emploi' },{ title: "Technologie 101 Inc. (ORG‑185-584-321-165)" }],
+						lngLinks: [{
+							lang: "en",
+							href: "https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/legalagreements/view-legal-agreement.action?request_locale=eng&amp;orgAccessId=16E7C2545552E458&amp;cacheKey=EPUZW0KYR6EBJ7XQSHEJZUSUVCK4FF0V",
+							text: "English"
+						}]
+				});
+			</script>
+
+			<div class="container">
+				<div class="row">
+						<main role="main" property="mainContentOfPage" class="col-md-9 col-md-push-3">
+							<h1 property="name" id="wb-cont">Technologie 101 Inc. (ORG‑185-584-321-165)</h1>
+
+
+	<h2>Entente en ligne</h2>
+
+		<p>
+Pour obtenir plus de renseignements sur la façon dont la protection de vos renseignements personnels est assurée, veuillez consulter notre 			<a href="https://srv2140-s.services.gc.qat/ecas-seca/RASCL/SCL/PNS.aspx?mode=READONLY&lang=fra" target="_blank" rel="external">Déclaration sur la collecte des renseignements personnels</a>.
+		</p>
+		
+		<div id="legalAgreement">
+			<p><strong>Entente RE Web</strong></p>
+<p>L'entente Relevé d'emploi Web (RE Web) (ci-après l'« entente ») énonce les modalités en vertu desquelles le titulaire de compte, par l'entremise des utilisateurs agissant en son nom, accédera au RE Web, lequel permet de remplir et de transmettre des relevés d'emploi (RE) par voie électroniques à la Commission d'assurance-emploi du Canada (Commission).</p>
+<p>L'objectif du service RE Web est de fournir au titulaire de compte et aux utilisateurs un moyen de créer, de transmettre, d'imprimer, de visualiser, d'extraire et de modifier (ci-après « gérer ») des RE électroniques.</p>
+<p>L'entente comprend plusieurs dispositions qui pourraient influer sur les droits et obligations du titulaire de compte.</p>
+<p><strong>L'ENTENTE DOIT ÊTRE LUE ATTENTIVEMENT DANS SON INTÉGRALITÉ.</strong></p>
+<p>La présente entente est proposée au titulaire de compte par l'entremise de l'agent principal qui est investi du pouvoir d'accepter la présente entente au nom du titulaire de compte.</p>
+<p>L'accès et l'utilisation continus au RE Web sont assujettis 1) à l'acceptation de la présente entente et 2) au respect des modalités de la présente entente par le titulaire de compte.</p>
+<p><strong>1. Définitions</strong></p>
+<p>L'« adresse principale de l'entreprise » est l'adresse de l'entreprise telle qu'indiquée dans le compte RE Web du titulaire de compte.</p>
+<p>Un « agent principal » est une personne désignée par le titulaire de compte pour le représenter et agir en son nom afin 1) d'identifier et d'authentifier d'autre(s) personne(s) à titre de représentant(s), 2) d'administrer le compte RE Web du titulaire de compte, 3) d'accepter l'entente RE Web, y compris les modifications apportées à celle-ci, au nom du titulaire de compte, et 4) de gérer les RE.</p>
+<p>Un « code d'autorisation » est un code aléatoire, unique et temporaire généré par le système que le titulaire de compte donnera à l'agent principal afin que ce dernier puisse compléter l'inscription au RE Web. </p>
+<p>Le « compte RE Web » est l'espace prévu dans RE Web que le titulaire de compte peut utiliser aux fins énoncées  dans la présente entente. Un compte RE Web comprend une entente et un agent principal et peut avoir plusieurs représentants et numéros d'entreprise de l'Agence du revenu du Canada en rapport avec les RE gérés par le titulaire de compte. </p>
+<p>Un « employeur client » est une personne ou une entité qui autorise un fournisseur de services à gérer les RE en son nom conformément au <i>formulaire de consentement de l'employeur client au RE Web</i>.</p>
+<p>Le « <i>formulaire de consentement de l'employeur client au RE Web</i> » est le formulaire fourni par la Commission et utilisé pour confirmer l'autorité du fournisseur de services de gérer les RE au nom de l'employeur client.</p>
+<p>Un « fournisseur de services » est une personne ou une entité qui offre des services de comptabilité et de paie à ses employeurs clients et qui est autorisée par ces derniers à gérer les RE en leur nom conformément au <i>formulaire de consentement de l'employeur client au RE Web</i>.</p>
+<p>L'« inscription au RE Web » est le processus par lequel une personne obtient un niveau d'accès à un compte RE Web en tant qu'utilisateur.</p>
+<p>Le « relevé d'emploi » aux fins de RE Web, est le formulaire électronique fourni par la Commission à même RE Web, qui est établi pour une personne qui exerce un emploi assurable et subit un arrêt de rémunération.</p>
+<p>Un « représentant » est une personne identifiée et authentifiée par soit l'agent principal soit un autre représentant ayant le niveau d'accès requis. Les responsabilités des représentants varient en fonction du niveau d'accès qui leur a été accordé pour le RE Web. </p>
+<p>Un « titulaire de compte » est une personne ou une entité qui :</p>
+<p style="padding-left: 20px;">1. a l'obligation d'établir et de transmettre des RE à la Commission conformément à la Loi sur l'assurance-emploi et son règlement d'application; et/ou</p>
+<p style="padding-left: 20px;">2. est un fournisseur de services à qui il incombe d'établir et de transmettre des RE à la Commission au nom d'un employeur client, que ce dernier soit inscrit comme un titulaire de compte ou non au RE Web.</p>
+<p style="padding-left: 20px;">« Utilisateur » est le terme générique qui renvoie à la personne autorisée à agir au nom du titulaire de compte soit comme agent principal ou comme représentant. </p>
+<p>On entend par « vous » l'agent principal.</p>
+<p><strong>2. Acceptation des modalités</strong></p>
+<p>2.1 La présente entente établit les modalités en vertu desquelles la Commission mettra le RE Web à la disposition du titulaire de compte.</p>
+<p>2.2 En cliquant sur le bouton « J'accepte » qui se trouve à la fin de la présente entente, vous :</p>
+<p style="padding-left: 20px;">a. acceptez, au nom du titulaire de compte, d'être lié par les modalités de la présente entente;</p>
+<p style="padding-left: 20px;">b. garantissez que vous avez le pouvoir et la capacité d'exécuter la présente entente au nom du titulaire de compte;</p>
+<p style="padding-left: 20px;">c. reconnaissez et convenez, au nom du titulaire de compte, que toute entente antérieure relative au RE Web que le titulaire de compte aurait conclue avec la Commission est immédiatement résiliée à l'acceptation de la présente entente.</p>
+<p><strong>3. Modification</strong></p>
+<p>3.1 La Commission se réserve le droit de modifier les modalités de la présente entente en tout temps, sans préavis. Cependant, ces modifications entreront en vigueur seulement après l'échéance d'un avis de trente jours débutant le jour où l'avis de changement est affiché au RE Web et sur le site Web de Service Canada.</p>
+<p>3.2 L'accès au compte RE Web ou l'utilisation de celui-ci après l'échéance de l'avis de trente jours signifiera que vous acceptez l'entente modifiée. La Commission sera alors en droit d'interpréter cet accès et cette utilisation du compte RE Web comme une indication d'acceptation de l'entente modifiée.</p>
+<p>3.3 Il incombe au titulaire de compte de consulter régulièrement le RE Web pour vérifier si des modifications sont affichées.</p>
+<p><strong>4. Disponibilité du RE Web</strong></p>
+<p>4.1 Le RE Web sera disponible sept jours sur sept, 24 heures sur 24, sauf :</p>
+<p style="padding-left: 20px;">a. pendant les périodes de maintenance et de réparation régulières prévues; ou</p>
+<p style="padding-left: 20px;">b. en raison d'événements qui échappent au contrôle de la Commission ou que celle-ci n'aurait pas pu raisonnablement empêcher au moyen de mesures de contrôle, de compromis, de procédures de secours ou de procédures de continuité des activités.</p>
+<p>4.2 La Commission ne fait aucune déclaration ni n'offre aucune garantie et décline toute responsabilité à l'égard de la disponibilité :</p>
+<p style="padding-left: 20px;">a. du RE Web en raison d'événements qui échappent à son contrôle ou que celle-ci n'aurait pas pu raisonnablement empêcher au moyen de mesures de contrôle, de compromis, de procédures de secours ou de procédures de continuité des activités;</p>
+<p style="padding-left: 20px;">b. de toute technologie connexe ou de tout service Internet intermédiaire ou système servant à appuyer RE Web ou à accéder à celui-ci.</p>
+<p><strong>5. Aucun frais pour utiliser RE Web</strong></p>
+<p>RE Web est gratuit.</p>
+<p><strong>6. Responsabilités du titulaire de compte</strong></p>
+<p>6.1 Le titulaire de compte est entièrement responsable :</p>
+<p style="padding-left: 20px;">a. de toute utilisation de RE Web qui constitue un manquement à la présente entente, y compris l'utilisation par tout utilisateur autorisé à accéder au compte RE Web;</p>
+<p style="padding-left: 20px;">b. de s'assurer que tous les renseignements présentés à la Commission par l'intermédiaire du compte RE Web sont exacts, actuels, complets et conformes à la <i>Loi sur l'assurance-emploi</i> et à son règlement d'application;</p>
+<p style="padding-left: 20px;">c. de mettre en œuvre des processus ou des mécanismes permettant de valider l'identité de l'utilisateur avant l'inscription au RE Web. Ces processus ou mécanismes doivent être fournis à la Commission sur demande.</p>
+<p>6.2 Le titulaire de compte atteste que l'agent principal et l'agent, ayant le niveau d'accès approprié, sont autorisés à utiliser le compte RE Web au nom du titulaire de compte et à authentifier l'identité d'autres utilisateurs autorisés à agir au nom du titulaire de compte aux fins de RE Web.</p>
+<p>6.3 Le titulaire de compte atteste et garantit que :</p>
+<p style="padding-left: 20px;">a. les renseignements sur l'identité fournis par les utilisateurs aux fins d'inscription au RE Web seront exacts et complets;</p>
+<p style="padding-left: 20px;">b. en demandant l'inscription au RE Web pour ses utilisateurs, aucun renseignement ne lui permet de croire que les renseignements sur l'identité des utilisateurs fournis à la Commission au cours du processus d'inscription sont inexacts ou incomplets ou que ceux-ci ont été changés ou modifiés;</p>
+<p style="padding-left: 20px;">c. les utilisateurs sont autorisés à s'inscrire et à utiliser RE Web conformément au niveau d'accès qui leur est assigné.</p>
+<p>6.4 Le titulaire de compte est tenu d'aviser la Commission s'il a des raisons de croire ou s'il soupçonne ce qui suit :</p>
+<p style="padding-left: 20px;">a. le nom d'utilisateur ou le mot de passe d'un utilisateur a été ou aurait pu avoir été divulgué à un tiers;</p>
+<p style="padding-left: 20px;">b. un accès non autorisé au compte ou une utilisation non autorisée du nom d'utilisateur ou du mot de passe d'un utilisateur;</p>
+<p style="padding-left: 20px;">c. la violation d'une disposition de la présente entente suite à un acte qui a été ou pourrait avoir été commis ou une omission;</p>
+<p style="padding-left: 20px;">d. une atteinte à la sécurité qui a ou qui pourrait avoir une incidence sur la sécurité ou l'intégrité du RE Web.</p>
+<p>6.5 Conformément au processus établi par la Commission et fourni sur le site Web de Service Canada, le titulaire de compte doit :</p>
+<p style="padding-left: 20px;">a. aviser la Commission de tout changement d'agent principal;</p>
+<p style="padding-left: 20px;">b. faire authentifier l'identité de tout nouvel agent principal.</p>
+<p><strong>7. Responsabilités propres au titulaire de compte agissant en tant que fournisseur de services</strong> </p>
+<p>En tant que fournisseur de services, le titulaire de compte :</p>
+<p style="padding-left: 20px;">a. doit conserver, aux fins de vérification, l'original de chaque <i>formulaire de consentement de l'employeur client au RE Web</i> signé par un employeur client qui autorise le titulaire de compte à gérer les RE en son nom aux fins d'utilisation du RE Web. Ces dossiers seront conservés conformément aux dispositions relatives à la période de conservation énoncées aux paragraphes 87(3) et 87(3.1) de la <i>Loi sur l'assurance-emploi</i>;</p>
+<p style="padding-left: 20px;">b. doit, sur demande, fournir à la Commission la copie signée du <i>formulaire de consentement de l'employeur client au RE Web</i> pour chaque employeur client inclut dans la requête, autorisant le titulaire de compte à gérer les relevés d'emploi au nom des employeurs client. </p>
+<p style="padding-left: 20px;">c. doit cesser de gérer les RE au nom d'un employeur client qui a retiré son autorisation et doit en aviser la Commission immédiatement;</p>
+<p style="padding-left: 20px;">d. reconnaît et convient qu'un employeur client pourrait en tout temps aviser la Commission qu'il a retiré son autorisation et que le titulaire de compte n'est plus autorisé à gérer les RE en leur nom.</p>
+<p><strong>8. Exactitude</strong></p>
+<p>Le titulaire de compte reconnaît et convient que, à moins que les renseignements figurant dans RE Web soient mis à jour ou que la Commission soit avisée d'un changement, la Commission est en droit de se fonder sur les renseignements qu'elle reçoit par l'intermédiaire de RE Web à l'égard du compte du titulaire de compte et d'agir en fonction de ces renseignements.</p>
+<p><strong>9. Protection du nom d'utilisateur et du mot de passe</strong></p>
+<p>9.1 Sous réserve des modalités de la présente entente, le code d'autorisation attribué à l'agent principal est personnel et non transférable.</p>
+<p>9.2 Le titulaire de compte est tenu de veiller à ce que, avant l'inscription au RE Web, chaque utilisateur reconnaisse et convienne que le nom d'utilisateur et le mot de passe qu'il utilise pour accéder au RE Web lui sont uniques et qu'il doit protéger la confidentialité de ceux-ci en tout temps et ne laisser personne d'autre les utiliser afin de préserver la sécurité de ses communications électroniques.</p>
+<p>9.3 La Commission décline toute responsabilité à l'égard de toute perte ou de tout dommage découlant de l'omission du titulaire de compte ou de tout utilisateur de protéger les noms d'utilisateur, les mots de passe, les codes d'autorisation ou les renseignements d'un compte. La Commission décline également toute responsabilité à l'égard du défaut du titulaire de compte de respecter les dispositions figurant dans la section 9.2 de la présente entente.  </p>
+<p><strong>10. Protection des réseaux informatiques du titulaire de compte</strong></p>
+<p>Le titulaire de compte garantit qu'il installera, utilisera et mettra à jour régulièrement un logiciel antivirus, qu'il effectuera une détection de programmes malveillants dans tout le matériel informatique utilisé pour accéder au RE Web et qu'il installera de nouvelles définitions de virus dès que possible.</p>
+<p><strong>11. Révocation de l'inscription au RE Web</strong></p>
+<p>11.1 Le titulaire de compte doit révoquer l'accès d'un utilisateur au compte RE Web lorsque :</p>
+<p style="padding-left: 20px;">a. la personne cesse d'être un utilisateur du compte RE Web;</p>
+<p style="padding-left: 20px;">b. des renseignements sur l'identification ou l'authentification de l'utilisateur sont modifiés;</p>
+<p style="padding-left: 20px;">c. le nom d'utilisateur ou le mot de passe de l'utilisateur est compromis ou non protégé ou s'il soupçonne ceux-ci d'être compromis ou non protégés;</p>
+<p style="padding-left: 20px;">d. l'utilisateur ne respecte pas les obligations que lui confère la présente entente.</p>
+<p>11.2 Il est entendu que la révocation de l'accès d'un utilisateur au compte RE Web n'a pas d'incidence sur l'accès d'autres utilisateurs et ne met pas fin à la présente entente. Si le titulaire de compte révoque l'accès de l'agent principal au RE Web, le titulaire de compte doit remplacer l'agent principal et aviser la Commission de l'identité du nouvel agent principal, conformément à l'article 6.5 de la présente entente.</p>
+<p>11.3 Le titulaire de compte est tenu d'aviser les utilisateurs que leur accès au compte RE Web sera révoqué s'il y a des raisons de croire que l'une des circonstances décrites à l'article 11.1 se produit.</p>
+<p>11.4 La Commission peut, à son entière et absolue discrétion et sans préavis, révoquer l'accès d'un utilisateur au RE Web s'il y a des raisons de croire que l'une des circonstances décrites à l'article 11.1 se produit.</p>
+<p><strong>12. Renonciation</strong></p>
+<p>12.1 Le RE Web et toutes les fonctionnalités connexes sont offerts TELS QUELS et SELON LEUR DISPONIBILITÉ. Ils sont offerts sans aucune garantie, déclaration ni condition, explicite ou implicite, y compris, sans s'y limiter, des garanties ou des conditions relatives à l'exactitude, à l'intégralité, à l'actualité, à la qualité commercialisable, à l'adéquation à une fin particulière ou à celles découlant de la loi, de l'usage du commerce ou des rapports d'affaires. Lorsque les utilisateurs accèdent au RE Web et utilisent celui-ci, le titulaire de compte convient que l'utilisation du RE Web est entièrement à ses propres risques.</p>
+<p>12.2 Sans que soit limitée la portée générale de l'article 12.1, la Commission ne fait aucune déclaration ni n'offre aucune garantie, explicite ou implicite, quant à ce qui suit :</p>
+<p style="padding-left: 20px;">a. RE Web</p>
+<p style="padding-left: 20px;">b. les transactions qui seront effectuées par le titulaire de compte ou ses utilisateurs par l'intermédiaire de RE Web;</p>
+<p style="padding-left: 20px;">c. l'absence de programmes malveillants, y compris un virus ou toute autre composante nuisible, dans RE Web;</p>
+<p style="padding-left: 20px;">d. la non-disponibilité du RE Web pour des raisons de maintenance ou de réparation;</p>
+<p style="padding-left: 20px;">e. la non-disponibilité du RE Web en raison d'événements qui échappent au contrôle de la Commission ou que celle-ci n'aurait pas pu raisonnablement empêcher au moyen de mesures de contrôle, de compromis, de procédures de secours ou de procédures de continuité des activités.</p>
+<p>12.3 La Commission n'assume aucune responsabilité et décline toute responsabilité quant à son utilisation de l'information relative à des tierces parties, y compris les employeurs clients, fournie à la Commission par un ou des utilisateurs par l'intermédiaire de RE Web.</p>
+<p><strong>13. Limite de responsabilité</strong></p>
+<p>13.1 La Commission n'assume aucune responsabilité et décline expressément toute responsabilité, quelle qu'elle soit, à l'endroit d'une personne ou d'une entité quelconque si elle n'est pas le titulaire de compte visé par la présente entente pour toutes les réclamations, poursuites, pertes, dommages (y compris les dommages spéciaux, directs, indirects, accessoires ou consécutifs), dommages-intérêts ou dépenses, y compris, sans s'y limiter, les pertes de recettes, de bénéfices ou d'économies, les pertes ou l'altération de données ou les autres pertes commerciales ou économiques découlant de quelque manière que ce soit (i) de tout acte, de toute omission ou conduite du titulaire de compte ou de ses utilisateurs, (ii) de toute utilisation ou incapacité à utiliser RE Web et (iii) de toute indisponibilité ou de tout retard à offrir RE Web, même si la Commission a été informée de la possibilité de tels dommages, ou pour les réclamations de tiers; les entrepreneurs, fournisseurs, mandataires, employés ou représentants de la Commission n'ont pas non plus à assumer de responsabilité à ce titre. Cette disposition prévaut, que la responsabilité découle ou non d'un acte délictuel (y compris la négligence), d'un contrat (y compris un manquement à des conditions fondamentales d'exécution ou une violation fondamentale de la présente entente), d'un crime ou de tout autre motif d'action.</p>
+<p>13.2 Nonobstant ce qui est prévu à la présente entente, la responsabilité globale maximale de la Commission à l'égard du titulaire de compte en vertu de la présente entente ou de tout tiers qui utilise raisonnablement RE Web, pour toute réclamation liée à un service associé au RE Web, ne dépassera pas la valeur de 50 000,00 $ par décision, jugement ou règlement négocié, même si la Commission a été avisée de la possibilité de ces dommages ou de réclamations d'un tiers, et les entrepreneurs, fournisseurs, mandataires, employés ou représentants de la Commission ne seront pas non plus tenus responsables. Cette disposition prévaut, que la responsabilité découle ou non d'un acte délictuel (y compris la négligence), d'un contrat (y compris un manquement à des conditions fondamentales d'exécution ou une violation fondamentale de la présente entente), d'un crime ou de tout autre motif d'action.</p>
+<p><strong>14. Indemnisation</strong></p>
+<p>14.1 Le titulaire de compte convient d'indemniser et de dégager la Commission, ses ayants droit et successeurs, ses employés ou ses mandataires de toute responsabilité à l'égard de toutes réclamations, poursuites, pertes, dépenses, dommages (directs, indirects, accessoires ou consécutifs) et coûts (y compris les honoraires des avocats), découlant des événements suivants :</p>
+<p style="padding-left: 20px;">a. tout manquement à la présente entente par le titulaire de compte ou un utilisateur ou toute autre conduite de ces derniers entraînant une responsabilité délictuelle (y compris la négligence), une responsabilité contractuelle ou tout autre motif d'action;</p>
+<p style="padding-left: 20px;">b. tout manquement - délibéré, par négligence ou autre - aux obligations prévues à l'article 9, « Protection du nom d'utilisateur et du mot de passe », par le titulaire de compte ou un utilisateur;</p>
+<p style="padding-left: 20px;">c. l'utilisation à mauvais escient ou non autorisée du RE Web par un utilisateur;</p>
+<p style="padding-left: 20px;">d. l'omission de demander la révocation conformément à l'article 11, « Révocation de l'inscription au RE Web »;</p>
+<p style="padding-left: 20px;">e. une décision, un jugement ou des dommages-intérêts concluant que la Commission est responsable. La responsabilité de la Commission est limitée à 50 000,00 $ conformément à l'article 13.2;</p>
+<p style="padding-left: 20px;">f. tout manquement par le titulaire de compte en ce qui concerne les responsabilités du titulaire de compte (articles 6 et 7 de la présente entente);</p>
+<p style="padding-left: 20px;">g. des renseignements ou des documents inexacts ou incomplets présentés par le titulaire de compte dont il a connaissance ou aurait dû raisonnablement avoir connaissance.</p>
+<p>14.2 Le titulaire de compte ne doit pas tenir la Commission responsable des dommages (directs, indirects, accessoires ou consécutifs), découlant de toute indisponibilité ou de tout retard à l'égard du RE Web.</p>
+<p><strong>15. Règlement de différends</strong></p>
+<p>Les parties s'engagent par la présente à faire de leur mieux pour régler à l'amiable et d'une manière expéditive tout conflit ou différend pouvant survenir entre elles dans le cadre de la présente entente, d'abord par la négociation, puis, le cas échéant, grâce à un médiateur indépendant. Tout conflit ou différend qui n'a pas été réglé par l'un de ces moyens doit être renvoyé à l'arbitrage exécutoire en vertu de la <i>Loi sur l'arbitrage commercial</i> (L.R.C., 1985, chap. 17 (2e suppl.)), telle que modifiée de temps à autre.</p>
+<p><strong>16. Protection des renseignements personnels et confidentialité</strong></p>
+<p>16.1 Le titulaire de compte consent à ce que la Commission recueille et utilise des renseignements sur l'identité, y compris le numéro d'entreprise, pour identifier tout RE transmis par le titulaire de compte au moyen du RE Web et communiquer avec le titulaire de compte.</p>
+<p>16.2 Le titulaire de compte est tenu d'informer tous les utilisateurs du fait que les renseignements sur leur identité, fournis par les utilisateurs ou recueillis par le titulaire du compte, aux fins de l'inscription au RE Web :</p>
+<p style="padding-left: 20px;">a. seront fournis à la Commission sur demande;</p>
+<p style="padding-left: 20px;">b. seront utilisés pour identifier l'utilisateur accédant au RE Web et gérant les RE;</p>
+<p style="padding-left: 20px;">c. peuvent être utilisés pour révoquer leur accès au RE Web.</p>
+<p>Le titulaire de compte est tenu de s'assurer et de garantir que tous les utilisateurs ont consenti à la collecte des renseignements sur leur identité et à leur divulgation à la Commission avant l'inscription au RE Web.</p>
+<p>16.3 Il est entendu que le titulaire de compte et tous les utilisateurs ont le droit d'accéder aux renseignements sur leur identité figurant dans les dossiers conservés par la Commission et de demander la correction des renseignements sur leur identité conformément à la <i>Loi sur la protection des renseignements personnels</i> (L.R.C., 1985, ch. P-21), telle que modifiée de temps à autre.</p>
+<p>16.4 Il est entendu que le titulaire de compte et tous les utilisateurs peuvent, en tout temps, retirer leur consentement, donné sous les articles 16.1 et 16.2, en avisant la Commission de leur décision. Si tel est le cas, la Commission ne pourra peut-être pas leur fournir ou continuer à leur fournir un accès au RE Web, auquel cas les RE peuvent être transmis par d'autres moyens par ces personnes. Jusqu'à la réception d'un tel avis, la Commission est en droit de se fonder sur les renseignements qu'elle détient.</p>
+<p><strong>17. Aucune société</strong></p>
+<p>La Commission et le titulaire de compte renoncent expressément à toute intention d'établir une société, une relation employeur-employé, une coentreprise ou une relation fiduciaire. Il est entendu, reconnu et convenu que rien dans l'entente ni aucune action de la Commission, du titulaire de compte ou d'une partie utilisatrice n'établit ou n'est réputé établir une société, une relation employeur-employé, une coentreprise, une relation mandant-mandataire ou un rapport fiduciaire quel qu'il soit, de quelque façon que ce soit ou pour quelque fin que ce soit, entre la Commission et le titulaire de compte (ou une partie utilisatrice quelconque).</p>
+<p><strong>18. Cession</strong></p>
+<p>Il est interdit au titulaire de compte de céder tout ou partie de la présente entente. La Commission peut céder tout ou partie de cette entente et sous-traiter la totalité ou une partie de ses services (y compris ceux concernant RE Web).</p>
+<p><strong>19. Résiliation</strong></p>
+<p>19.1 L'une ou l'autre des parties peut résilier la présente entente sans motif sur présentation d'un avis de 30 jours.</p>
+<p>19.2 La Commission résiliera la présente entente sans préavis si le titulaire de compte ne respecte pas l'une ou l'autre de ses obligations découlant de la présente entente. Plus précisément, la résiliation prendra effet le jour où le titulaire de compte omet de se conformer aux exigences, quelles qu'elles soient.</p>
+<p>19.3 Si, à n'importe quel moment et pour n'importe quelle raison, le titulaire du compte refuse d'être lié par cette entente, le titulaire du compte et tout utilisateur(s) doivent immédiatement cesser d'accéder au compte RE Web ou de l'utiliser et en aviser la Commission.</p>
+<p>19.4 Au moment où cette entente est résiliée, l'accès du titulaire du compte ainsi que celui de tout utilisateur au compte RE Web sera révoqué sans préavis.</p>
+<p><strong>20. Avis</strong></p>
+<p>20.1 Lorsque la présente entente exige qu'un avis soit signifié, sauf indication contraire, l'avis doit être communiqué par écrit et transmis par la poste, par télécopieur, par courriel ou par tout autre moyen de communication approuvé par la Commission. Un avis est réputé avoir été reçu dans un délai de cinq jours ouvrables s'il est envoyé par la poste et le premier jour ouvrable après la date de transmission s'il est envoyé par télécopieur ou par courrier électronique.</p>
+<p>20.2 Un avis devra être signifié à la Commission à l'adresse suivante :</p>
+<p><strong>À l'attention de :</strong></p>
+<p><strong>Par la poste :</strong><br />
+Centre d'inscription des entreprises<br />
+Service Canada<br />
+C.P. 14000<br />
+Bathurst (Nouveau-Brunswick) E2A 5A3</p>
+<p><strong>Par télécopieur :</strong><br />
+1-506-548-7149</p>
+<p><strong>Par courriel :</strong><br />
+<a href="mailto:NA-ECC-CSE-GD@servicecanada.gc.ca">NA-ECC-CSE-GD@servicecanada.gc.ca</a></p>
+<p><strong>21. Divisibilité</strong></p>
+<p>Toute disposition de l'entente qu'un arbitre ou un tribunal compétent déclare invalide, illégale ou non susceptible d'exécution sera dissociée de l'entente, et toutes les autres dispositions demeureront en vigueur et applicables.</p>
+<p><strong>22. Successeurs et ayants droit</strong></p>
+<p>La présente entente s'applique obligatoirement aux successeurs et ayants droit de la Commission et du titulaire de compte; toutefois, les droits d'accès au RE Web sont personnels aux utilisateurs et non transférables. Les droits d'accès sont strictement réservés à l'utilisation du RE Web et non à des fins personnelles.</p>
+<p><strong>23. Maintien de certaines dispositions</strong></p>
+<p>Nonobstant la résiliation de cette entente, les dispositions de la présente entente en matière d'indemnisation, de responsabilité et de règlement des différends demeurent en vigueur.</p>
+<p><strong>24. Exhaustivité de l'entente</strong></p>
+<p>La présente entente, telle que modifiée de temps à autre conformément à ses dispositions, constitue la seule entente intervenue entre les parties relativement au RE Web et remplace toute négociation, communication ou autre entente antérieure écrite ou verbale s'y rapportant, à moins qu'elle ne soit intégrée par renvoi à l'entente. Seuls les engagements, conventions, représentations, déclarations ou conditions figurant dans la présente entente lient les parties.</p>
+<p><strong>25. Lois applicables</strong></p>
+<p>En accédant au service RE Web ou en l'utilisant, le titulaire de compte convient que la présente entente ainsi que toutes les questions relatives à l'accès au service RE Web ou à son utilisation sont régies par les lois</p>
+<p style="padding-left: 20px;">a. de la province dans laquelle se situe l'adresse principale de l'entreprise du titulaire de compte; ou</p>
+<p style="padding-left: 20px;">b. de la province de l'Ontario si l'adresse principale de l'entreprise du titulaire de compte est située à l'extérieur du Canada</p>
+<p>et les lois du Canada, sous réserve des règles de conflit de lois. Par les présentes, le titulaire de compte reconnaît et accepte de se soumettre à la juridiction des tribunaux de l'administration applicable décrite aux alinéas a) et b)</p>
+
+
+
+		</div>
+		
+			<p>
+<a
+ href="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/legalagreements/accept-legal-agreement.action?legalAgreementCode=997A4AA6E2D3728C&amp;orgAccessId=16E7C2545552E458" class="btn btn-primary">J'accepte</a>	
+<a
+ href="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/legalagreements/decline-legal-agreement.action?legalAgreementCode=997A4AA6E2D3728C&amp;orgAccessId=16E7C2545552E458" class="btn btn-primary">Je n'accepte pas</a>			</p>
+
+						</main>
+
+					<nav id="wb-sec" class="wb-sec col-md-3 col-md-pull-9" typeof="SiteNavigationElement" role="navigation">
+<h2 id="wb-sec-h" class="wb-inv">Section menu</h2>
+<section class="list-group menu list-unstyled">
+						<h3><a href="#">Pat Smith</a></h3>
+				<ul class="list-group menu list-unstyled">
+						<li><a href="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/clientaccounts/update-client-account.action" class="list-group-item">Mon Information</a></li>
+						<li><a href="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/view-organization-instructions.action" class="list-group-item">Inscrire une nouvelle organisation</a></li>
+						<li><a href="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/primaryofficers/view-primary-officer-instructions.action" class="list-group-item">Remplacez/devenez un agent principal</a></li>
+				</ul>
+</section>
+						<script type="text/javascript">
+							document.getElementById("wb-sec").innerHTML = wet.builder.secmenu({
+								sections: [
+										{
+											sectionName: "Pat Smith",
+											menuLinks: [
+												{
+													href: "https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/clientaccounts/update-client-account.action",
+													text: "Mon Information",
+												},
+												{
+													href: "https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/view-organization-instructions.action",
+													text: "Inscrire une nouvelle organisation",
+												},
+												{
+													href: "https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/primaryofficers/view-primary-officer-instructions.action",
+													text: "Remplacez/devenez un agent principal",
+												},
+											]
+										},
+								]
+							});
+						</script>
+					</nav>
+				</div>
+
+				<div id="def-preFooter"><div class="row pagedetails">
+	<div class="datemod col-xs-12 mrgn-tp-lg">
+		<dl id="wb-dtmd">
+							<dt>Identificateur d'écran :&#32;</dt>
+				<dd>ORG-1801</dd>
+		</dl>
+	</div>
+</div></div>
+
+				<script type="text/javascript">
+					document.getElementById("def-preFooter").outerHTML = wet.builder.preFooter({
+							cdnEnv: "AKAMAI",
+							showShare: false,
+							showFeedback: false,
+							showPostContent: false,
+							versionIdentifier: "2.7.2-RC.6",
+								screenIdentifier: "ORG-1801"
+					});
+				</script>
+			</div>
+
+			<div id="def-footer"><footer role="contentinfo" id="wb-info">
+	<nav role="navigation" class="container wb-navcurr">
+		<h2 class="wb-inv">Liens connexes</h2>
+		<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+						<li><a target="_blank" href="https://www.canada.ca/fr/emploi-developpement-social/ministere/coordonnees/centre-services-employeurs.html">Centre de services aux employeurs</a></li>
+						<li><a target="_blank" href="http://www.servicecanada.gc.ca/tbsc-fsco/sc-hme.jsp?lang=fra">Trouver un bureau de Service Canada</a></li>
+						<li><a target="_blank" href="https://www.canada.ca/fr/emploi-developpement-social/programmes/assurance-emploi/ae-liste/rapports/re-web-guide-admin.html">RE Web</a></li>
+						<li><a target="_blank" href="https://www.canada.ca/fr/emploi-developpement-social/programmes/assurance-emploi/ae-liste/rapports/re-guide.html">Guide RE</a></li>
+						<li><a target="_blank" href="https://www.canada.ca/fr/emploi-developpement-social/programmes/assurance-emploi/ae-liste/rapports/employeurs/re-tutoriels.html">Tutoriels sur la manière de compléter les relevés d’emploi</a></li>
+						<li><a target="_blank" href="http://www.cra-arc.gc.ca/esrvc-srvce/tx/ndvdls/myccnt/menu-fra.html">ARC – Mon dossier pour les particuliers</a></li>
+						<li><a target="_blank" href="http://www.cra-arc.gc.ca/esrvc-srvce/tx/bsnss/myccnt/menu-fra.html">ARC – Mon dossier d’entreprise</a></li>
+						<li><a target="_blank" href="http://www.cra-arc.gc.ca/esrvc-srvce/tx/rprsnttvs/menu-fra.html">ARC – Représenter un client</a></li>
+		</ul>
+	</nav>
+	<div class="brand">
+		<div class="container">
+			<div class="row">
+				<nav class="col-md-10 ftr-urlt-lnk">
+					<h2 class="wb-inv">À propos de cette application</h2>
+					<ul>
+						<li><a target="_blank" href="http://www.edsc.gc.ca/cgi-bin/op-so/msca/redirection.asp?linkmsca=2f.html">Coordonnées</a></li>
+						<li><a target="_blank" href="https://srv2140-s.services.gc.qat/ecas-seca/RASCL/SCL/PNS.aspx?mode=READONLY&lang=fra">Avis</a></li>
+						<li><a target="_blank" href="https://srv2140-s.services.gc.qat/ecas-seca/RASCL/SCL/PNS.aspx?mode=READONLY&lang=fra">Confidentialité</a></li>
+					</ul>
+				</nav>
+				<div class="col-xs-6 visible-sm visible-xs tofpg">
+					<a href="#wb-cont">Haut de la page <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></a>
+				</div>
+				<div class="col-xs-6 col-md-2 text-right">
+					<object type="image/svg+xml" tabindex="-1" role="img" data="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/assets/wmms-blk.svg" aria-label="Symbole du gouvernement du Canada"></object>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer></div>
+
+			<div id="theFooter">
+				<script type="text/javascript">
+					document.getElementById("def-footer").outerHTML = wet.builder.appFooter({
+						cdnEnv: "AKAMAI",
+						footerSections: [
+
+
+
+
+
+
+							 {
+									href: "https://www.canada.ca/fr/emploi-developpement-social/ministere/coordonnees/centre-services-employeurs.html",
+									text: "Centre de services aux employeurs",
+									newWindow: true
+							},
+
+							 {
+									href: "http://www.servicecanada.gc.ca/tbsc-fsco/sc-hme.jsp?lang=fra",
+									text: "Trouver un bureau de Service Canada",
+									newWindow: true
+							},
+
+							 {
+									href: "https://www.canada.ca/fr/emploi-developpement-social/programmes/assurance-emploi/ae-liste/rapports/re-web-guide-admin.html",
+									text: "RE Web",
+									newWindow: true
+							},
+
+							 {
+									href: "https://www.canada.ca/fr/emploi-developpement-social/programmes/assurance-emploi/ae-liste/rapports/re-guide.html",
+									text: "Guide RE",
+									newWindow: true
+							},
+
+							 {
+									href: "https://www.canada.ca/fr/emploi-developpement-social/programmes/assurance-emploi/ae-liste/rapports/employeurs/re-tutoriels.html",
+									text: "Tutoriels sur la manière de compléter les relevés d’emploi",
+									newWindow: true
+							},
+
+							 {
+									href: "http://www.cra-arc.gc.ca/esrvc-srvce/tx/ndvdls/myccnt/menu-fra.html",
+									text: "ARC – Mon dossier pour les particuliers",
+									newWindow: true
+							},
+
+							 {
+									href: "http://www.cra-arc.gc.ca/esrvc-srvce/tx/bsnss/myccnt/menu-fra.html",
+									text: "ARC – Mon dossier d’entreprise",
+									newWindow: true
+							},
+
+							 {
+									href: "http://www.cra-arc.gc.ca/esrvc-srvce/tx/rprsnttvs/menu-fra.html",
+									text: "ARC – Représenter un client",
+									newWindow: true
+							},
+
+						],
+						contactLink: "http://www.edsc.gc.ca/cgi-bin/op-so/msca/redirection.asp?linkmsca=2f.html",
+						termsLink: "https://srv2140-s.services.gc.qat/ecas-seca/RASCL/SCL/PNS.aspx?mode=READONLY&lang=fra",
+						privacyLink: "https://srv2140-s.services.gc.qat/ecas-seca/RASCL/SCL/PNS.aspx?mode=READONLY&lang=fra",
+						showFeatures: false
+					});
+				</script>
+			</div>
+
+			<script type="text/javascript">document.write(wet.builder.refFooter({ cdnEnv: "AKAMAI" }))</script>
+
+			<span class="wb-sessto" data-wb-sessto='{
+				"inactivity" : 1020000,
+				"reactionTime" : 60000,
+				"sessionalive" : 1080000,
+				"logouturl" : "https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/portal/page/portal/mscba/logout",
+				"refreshCallbackUrl" : "https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/session-refresh.action",
+				"refreshOnClick" : false }'>
+			</span>
+
+			<script type="text/javascript" src="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/StaticContent/theme-mscba-mdesc/js/mscba.js"></script>
+			<script type="text/javascript" src="https://srv2140-s.services.gc.qat/sc/sys/mscba-mdesc/portal-portail/pro/roe/mscba/StaticContent/theme-mscba-mdesc/js/newwindow.js"></script>
+
+			<script>
+				$(function() {
+					$("#wb-info").find("a").each(function(idx, elem) { $(elem).attr("target", "_blank"); });
+				});
+			</script>
+
+			<script type="text/javascript"></script>
+		</body>
+	</html>
