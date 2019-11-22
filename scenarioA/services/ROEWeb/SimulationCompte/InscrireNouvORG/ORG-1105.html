@@ -203,17 +203,17 @@ Pour obtenir plus de renseignements sur la façon dont la protection de vos rens
 	</p>
 
 <form id="add-organization" name="add-organization" action="https://srv136.services.gc.ca/sc/mscba-mdesc/portal-portail/pro/roe/mscba/organizations/add-organization.action" method="post" role="form">		<div class="form-group">
-<div class="input"><label for="add-organization_model_organizationName"><span class="field-name">Nom de l&#39;organisation :</span><span class="required">(requis)</span></label><input type="text" name="model.organizationName" size="50" maxlength="100" value="" id="add-organization_model_organizationName" class="form-control"/>
+<div class="input"><label for="add-organization_model_organizationName"><span class="field-name">Nom de l&#39;organisation :</span><span class="required">(requis)</span></label><input type="text" name="model.organizationName" size="50" maxlength="100" value="Riley’s Catering Inc." id="add-organization_model_organizationName" class="form-control"/>
 </div>
 		</div>
 		
 			<div class="form-group">
-<div class="input"><label for="add-organization_model_employeeCount"><span class="field-name">Nombre d&#39;employés :  </span><span class="required">(requis)</span></label><input type="text" name="model.employeeCount" maxlength="6" value="" id="add-organization_model_employeeCount" class="form-control"/>
+<div class="input"><label for="add-organization_model_employeeCount"><span class="field-name">Nombre d&#39;employés :  </span><span class="required">(requis)</span></label><input type="text" name="model.employeeCount" maxlength="6" value="2" id="add-organization_model_employeeCount" class="form-control"/>
 </div>
 			</div>
 		
 		<div class="form-group">
-<div class="input"><label for="add-organization_model_clientTitle"><span class="field-name">Titre de votre poste : </span><span class="required">(requis)</span></label><input type="text" name="model.clientTitle" size="50" maxlength="200" value="" id="add-organization_model_clientTitle" class="form-control"/>
+<div class="input"><label for="add-organization_model_clientTitle"><span class="field-name">Titre de votre poste : </span><span class="required">(requis)</span></label><input type="text" name="model.clientTitle" size="50" maxlength="200" value="CEO" id="add-organization_model_clientTitle" class="form-control"/>
 </div>
 		</div>
 			
@@ -222,7 +222,7 @@ Pour obtenir plus de renseignements sur la façon dont la protection de vos rens
 			
 
 <div class="form-group">
-<div class="input"><label for="add-organization_model_addressLine1"><span class="field-name">Adresse ligne 1 :</span><span class="required">(requis)</span></label><input type="text" name="model.addressLine1" size="50" maxlength="100" value="" id="add-organization_model_addressLine1" class="form-control"/>
+<div class="input"><label for="add-organization_model_addressLine1"><span class="field-name">Adresse ligne 1 :</span><span class="required">(requis)</span></label><input type="text" name="model.addressLine1" size="50" maxlength="100" value="1 address st." id="add-organization_model_addressLine1" class="form-control"/>
 </div>
 </div>
 
@@ -232,12 +232,13 @@ Pour obtenir plus de renseignements sur la façon dont la protection de vos rens
 </div>
 
 <div class="form-group">
-<div class="input"><label for="add-organization_model_city"><span class="field-name">Ville :</span><span class="required">(requis)</span></label><input type="text" name="model.city" size="50" maxlength="100" value="" id="add-organization_model_city" class="form-control"/>
+<div class="input"><label for="add-organization_model_city"><span class="field-name">Ville :</span><span class="required">(requis)</span></label><input type="text" name="model.city" size="50" maxlength="100" value="Ottawa" id="add-organization_model_city" class="form-control"/>
 </div>
 </div>
 
 <div class="form-group">	
 <div class="input"><label for="add-organization_model_regionCode"><span class="field-name">Province/état :</span><span class="required">(requis pour les adresses d'Amérique du Nord)</span></label><select name="model.regionCode" id="add-organization_model_regionCode" class="form-control">
+		<option value="ON">Ontario</option>
 		<option value="??">Veuillez sélectionner...</option>
 		<option value="AB">Alberta</option>
 		<option value="BC">Colombie-Britannique</option>
@@ -310,8 +311,8 @@ Pour obtenir plus de renseignements sur la façon dont la protection de vos rens
 
 <div class="form-group">
 <div class="input"><label for="add-organization_model_countryCode"><span class="field-name">Pays :</span><span class="required">(requis)</span></label><select name="model.countryCode" id="add-organization_model_countryCode" class="form-control">
-		<option value="??">Veuillez sélectionner...</option>
 		<option value="CA">Canada</option>
+		<option value="??">Veuillez sélectionner...</option>
 		<option value="US">États-Unis</option>
 		<option value="--">--------------------</option>
 		<option value="AF">Afghanistan</option>
@@ -565,14 +566,14 @@ Pour obtenir plus de renseignements sur la façon dont la protection de vos rens
 </div>
 
 <div class="form-group">
-<div class="input"><label for="add-organization_model_regionPostalCode"><span class="field-name">Code postal :</span><span class="required">(requis pour les adresses d'Amérique du Nord)</span></label><input type="text" name="model.regionPostalCode" maxlength="20" value="" id="add-organization_model_regionPostalCode" class="form-control"/>
+<div class="input"><label for="add-organization_model_regionPostalCode"><span class="field-name">Code postal :</span><span class="required">(requis pour les adresses d'Amérique du Nord)</span></label><input type="text" name="model.regionPostalCode" maxlength="20" value="K9M 6H8" id="add-organization_model_regionPostalCode" class="form-control"/>
 </div>
 </div>
 	
 				<div class="form-group">
 <div class="input"><label for="add-organization_model_isServiceProvider"><span class="field-name">Est-ce que cette organisation émet des Relevés d&#39;emplois pour d&#39;autres organisations?</span><span class="required">(requis)</span></label><select name="model.isServiceProvider" id="add-organization_model_isServiceProvider" class="form-control">
-		<option value="">Veuillez sélectionner...</option>
 		<option value="false">Non</option>
+		<option value="">Veuillez sélectionner...</option>
 		<option value="true">Oui</option>
 </select>
 </div>
@@ -580,8 +581,8 @@ Pour obtenir plus de renseignements sur la façon dont la protection de vos rens
 				
 				<div class="form-group">
 <div class="input"><label for="add-organization_model_isNonProfit"><span class="field-name">S&#39;agit-il d&#39;un organisme de bienfaisance enregistré ou organisme sans but lucratif?</span><span class="required">(requis)</span></label><select name="model.isNonProfit" id="add-organization_model_isNonProfit" class="form-control">
-		<option value="">Veuillez sélectionner...</option>
 		<option value="false">Non</option>
+		<option value="">Veuillez sélectionner...</option>
 		<option value="true">Oui</option>
 </select>
 </div>
