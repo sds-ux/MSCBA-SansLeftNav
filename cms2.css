@@ -1,0 +1,184 @@
+#questionID,#questionID0,#questionID1,#questionID2,#questionID3{
+	display:none;
+	}
+
+#qaSection input,#qaSection select{
+	width:100%;
+	
+}
+#qaSection-challenge input{
+	width:40em;
+}
+
+
+div.left-col, div.right-col{
+	float:left;
+}
+
+div.left-col{
+	width:220px;
+}
+
+#content h2#passwordCheckListHeader {
+    font-size: 100%;
+    text-align: left;
+
+    margin-bottom: 0px;
+    margin-top:0px
+    width: 25em;
+    margin-left: 0.5em;
+}
+
+
+
+/*Default/Reset - black border with bullets*/
+table.checklist{
+	margin-left:.5em;
+	
+	
+	
+}
+
+div.checklist{
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	border:1px solid gray;
+	background-color:#f0f0f0;
+	
+	}
+
+
+
+	
+#logout-btn {
+    background-color: #fff;
+    margin-top: 8px;
+}
+
+
+@media (max-width: 479px) {
+#logout-btn {
+    margin-right: 5px;
+    min-height: 0;
+    padding: 3px 6px 2px;
+    font-size: 13px;
+}
+}
+
+
+table.checklist td{
+	padding-left:1em;
+}
+
+
+
+
+	
+td.passwordCheck, td.useridCheck{
+	text-align:center;
+	width:1.5em;
+}
+
+.challenge input{
+	width:35em;
+}
+
+label.cookie{
+
+}
+	
+#loginBox{
+	background:#e1e3f0;
+	text-align:center;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+#loginBox div{
+	margin:auto;
+}
+
+#loginBox h3{
+		
+		font-weight:bold;
+}
+
+#loginBox div.alignCenter{
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
+
+.logincenter{
+	margin:auto;
+	text-align:center;
+
+}
+.logincenter div{
+	width:50%;
+	padding:3px;
+}
+
+.logincenter div div{
+	width:100%;
+}
+
+.login {
+	
+	width:10em;
+	margin-right:0.25em;
+}
+
+label.login{
+	width:10em;
+	font-weight:bold;
+}
+
+#securityFeature{
+	font-weight:bold;
+
+	}
+	
+.greyedout{
+	background-color:#f0f0f0;
+}
+
+.awsc-label{
+	font-weight:bold;
+	font-size:105%;
+	}
+
+.normal{
+	font-weight:normal;
+	font-size:100%;
+}
+
+#qaSection div.inputContainer, #qaSection div.labelContainer,
+#qaSection-challenge div.inputContainer, #qaSection-challenge div.labelContainer{
+	margin-bottom:0.05em;
+}
+
+div#content div.qaPair{
+	margin-bottom:0.5em;
+	padding:1em;
+}
+
+ul.nav li.menu-subheader{
+	color:#FFFFFF;
+	background-color:#5b626e;
+	
+	background-repeat:no-repeat;
+	background-position:right center;
+	padding: 2px 5px 2px 7px;
+	
+	
+}
+
+#indent-nav a.menulink{
+	margin-left:5px;
+	
+	}
+
+ul.nav li.menu-subheader a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+	}
