@@ -53,7 +53,76 @@
 
 			<script type="text/javascript">document.write(wet.builder.refTop({ cdnEnv: "AKAMAI", isApplication: true }))</script>
 			<style>.modal-footer { background-color: #FFF }</style>
-			
+			<style type="text/css">
+
+
+
+.header-bg {
+	line-height: normal; 
+	background: linear-gradient(to right, #ddd 50%, #fff 75%, #fff); 
+}
+
+.header-bg .brdr-bttm-fade	 {
+	width: 100%;
+	height: 4px;
+	background: linear-gradient(to right, #26374a 50%, #fff 75%, #fff); 
+}
+
+.header-bg h2 {
+	background: linear-gradient(297.5deg, transparent, transparent 25px, white 26px, white 31px, #26374a 32px, #26374a);
+	color: white;
+	display: inline-block;
+	margin: 0px;
+	padding: 5px 30px 5px 15px;
+	min-width: 300px;
+	font-size: 1.3em;
+}
+
+
+.btn.large-btn {display:flex;flex-direction:row;padding:0;border:2px solid #000; background-color:#fff;width:85%;text-align:left;}
+.btn.large-btn .icon-btn {flex:1;display:flex;flex-direction:row;align-items:center;}
+.btn.large-btn .label-btn {flex:4; padding-left:15px;display:flex;flex-direction:row;align-items:center; }
+.btn.large-btn .label-btn b {display:block;}
+.btn.large-btn .icon-btn img {width:30px;margin:10px 15px;}
+
+
+a.btn-blue:link, a.btn-blue:visited {
+  border:2px solid #003264;
+	color:#222;
+}
+a.btn-blue:link .icon-btn, a.btn-blue:visited .icon-btn{
+	background-color:#003264;
+
+}
+a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
+	background: #003264;
+	color: white;
+}
+a.btn-red:link, a.btn-red:visited {
+  border:2px solid #990033;
+	color:#222;
+}
+a.btn-red:link .icon-btn, a.btn-red:visited .icon-btn{
+	background-color:#990033;
+}
+a.btn-red:hover, a.btn-red:active, a.btn-red:focus {
+	background: #990033;
+	color: white;
+}
+a.btn-lblue:link, a.btn-lblue:visited {
+  border:2px solid #00749C;
+	color:#222;
+}
+a.btn-lblue:link .icon-btn, a.btn-lblue:visited .icon-btn{
+  background: #00749C;
+}
+a.btn-lblue:hover, a.btn-lblue:active, a.btn-lblue:focus {
+	background: #00749C;
+	color: white;
+}	
+	
+
+</style>
 		</head>
 
 		<body vocab="http://schema.org/" typeof="WebPage">
@@ -193,10 +262,31 @@ Government of Canada					</span>
 			<div class="container">
 				<h1 property="name" id="wb-cont">Bienvenue Riley Smith (RIL-167-792-543-569)</h1>
 				<div class="row">
-						<main role="main" property="mainContentOfPage"  col-md-push-3 class="col-md-9">
-						
-
-	<h2>Mes organisations</h2>
+    <div class="col-xs-12 col-md-3 pull-right">
+      <div class="panel panel-default"> 
+        <!-- Default panel contents -->
+        <div class="panel-heading"><strong>Sur cette page</strong></div>
+        
+        <!-- List group -->
+        <ul class="list-group">
+          <li class="list-group-item"><a href="#a1-1">Mes organisations</a></li>
+          <li class="list-group-item"><a href="#a1-2">Nouvelle Organisation</a></li>
+          <li class="list-group-item"><a href="#a1-3">Agent principa</a></li>
+          <li class="list-group-item"><a href="#a1-4">Représentant</a></li>
+        </ul>
+      </div>
+      <div class="panel panel-default"> 
+        <!-- Default panel contents -->
+        <div class="panel-heading"><strong>Services et informations connexes</strong></div>
+        
+        <!-- List group -->
+        <ul class="list-group">
+          <li class="list-group-item"><a href="">Contactez-nous</a>&nbsp;<span class="glyphicon glyphicon-share"></span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-9">
+	<h2 id="a1-1">Mes organisations</h2>
 
 	
 	
@@ -222,22 +312,55 @@ Government of Canada					</span>
 			</tbody>
 		</table>
 	
-	<div class="well">
-	<h2>Nouvelle Organisation</h2>
-	<p>Utilisez cette option afin dinscrire une organisation que vous représentez aux Services en ligne des subventions et des contributions. Assurez-vous que lorganisation nest pas déjà inscrite et que vous possédez lautorité dagir en tant que ladministrateur (agent principal) du compte.</p>
-	<a class="btn btn-default" href="/MSCBA-SansLeftNav/scenarioA/services/ROEWeb/SimulationCompte/InscrireNouvORG/ORG-1104.html">Inscrire une nouvelle organisation</a>
-								
-</div>	
-<div class="well">
-	<h2>Agent principal</h2>
-	<p>Utilisez cette option afin de devenir le nouvel administrateur (agent principal) de compte d'une organisation déjà inscrite. Assurez-vous de posséder l'autorisation de remplacer l'agent principal actuel avant de soumettre votre demande.  </p>
-	<a class="btn btn-default" href="/MSCBA-SansLeftNav/scenarioA/services/ROEWeb/SimulationCompte/RemplAgentPrincipal/ORG-1400.html">Remplacez/devenez l'agent principal d'une organisation déjà inscrite</a>
-</div>
-<div class="well">
-	<h2>Représentant</h2>
-<p>Afin de devenir un représentant d'une organisation déjà inscrite, vous devrez fournir votre numéro de référence d'utilisateur (NRU) à l'agent principal ou à un représentant autorisé  de l'organisation déjà inscrite. Votre NRU est un identifiant alphanumérique unique que vous trouverez en haut de cette page.  A l'aide de votre NRU, l'agent principal ou un représentant autorisé pourra vous envoyer une invitation afin de devenir un représentant de  rejoindre l'organisation.</p>
-</div>
-
+	<section>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="mrgn-tp-md header-bg">
+              <h2 id="a1-2" class="mrgn-tp-0">Nouvelle Organisation&nbsp;</h2>
+              <div class="brdr-bttm-fade"></div>
+            </div>
+            <br /> 
+            <p>Utilisez cette option afin dinscrire une organisation que vous représentez aux Services en ligne des subventions et des contributions. Assurez-vous que lorganisation nest pas déjà inscrite et que vous possédez lautorité dagir en tant que ladministrateur (agent principal) du compte.</p>
+            <ul class="list-unstyled list-inline">
+              <li class="mrgn-bttm-sm">
+                <button onclick="window.location.href = '/MSCBA-SansLeftNav/scenarioA/services/ROEWeb/SimulationCompte/InscrireNouvORG/ORG-1104.html';" type="button" class="btn btn-default">Inscrire une nouvelle organisation</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+	
+							<section>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="mrgn-tp-md header-bg">
+              <h2 id="a1-3" class="mrgn-tp-0">Agent principal&nbsp;</h2>
+              <div class="brdr-bttm-fade"></div>
+            </div>
+            <br /> 
+            <p>Utilisez cette option afin de devenir le nouvel administrateur (agent principal) de compte d'une organisation déjà inscrite. Assurez-vous de posséder l'autorisation de remplacer l'agent principal actuel avant de soumettre votre demande. </p>
+            <ul class="list-unstyled list-inline">
+              <li class="mrgn-bttm-sm">
+                <button onclick="window.location.href = '/MSCBA-SansLeftNav/scenarioA/services/ROEWeb/SimulationCompte/RemplAgentPrincipal/ORG-1400.html';" type="button" class="btn btn-default">Remplacez/devenez l'agent principal d'une organisation déjà inscrite</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+							
+							
+							<section>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="mrgn-tp-md header-bg">
+              <h2 id="a1-4" class="mrgn-tp-0">Représentant&nbsp;</h2>
+              <div class="brdr-bttm-fade"></div>
+            </div>
+            <br /> 
+            <p>Afin de devenir un représentant d'une organisation déjà inscrite, vous devrez fournir votre numéro de référence d'utilisateur (NRU) à l'agent principal ou à un représentant autorisé  de l'organisation déjà inscrite. Votre NRU est un identifiant alphanumérique unique que vous trouverez en haut de cette page.  A l'aide de votre NRU, l'agent principal ou un représentant autorisé pourra vous envoyer une invitation afin de devenir un représentant de  rejoindre l'organisation.</p>
+          </div>
+        </div>
+      </section>
 						</main>
 
 					
